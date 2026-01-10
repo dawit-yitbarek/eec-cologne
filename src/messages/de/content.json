@@ -1,0 +1,329 @@
+{
+    "home": {
+        "hero": {
+            "title": "Ein Ort des Glaubens, <br/> der Hoffnung und der Gemeinschaft",
+            "subtitle": "Begleiten Sie uns auf unserem gemeinsamen Weg des Glaubens, der Liebe und des Dienstes, den Lehren Christi folgend.",
+            "buttons": {
+                "primary": "Sehen Sie sich die neueste Predigt an",
+                "secondary": "Besuchen Sie uns diesen Sonntag!"
+            }
+        },
+        "ministriesSection": {
+            "title": "Unsere Dienste und Programme",
+            "subtitle": "In unserer Kirchengemeinde gibt es für jeden einen Platz, an dem er dazugehören, dienen und im Glauben wachsen kann.",
+            "cta": "Mehr erfahren →"
+        },
+        "announcementsSection": {
+            "title": "Wöchentliche Ankündigungen",
+            "subtitle": "Bleiben Sie über die Geschehnisse in unserer Kirchengemeinde in dieser Woche informiert.",
+            "readMore": "Mehr lesen →",
+            "viewAll": "Alle Ankündigungen ansehen →"
+        },
+        "eventsSection": {
+            "title": "Kommende Veranstaltungen",
+            "subtitle": "Wir laden Sie herzlich ein, an unseren Gottesdiensten, Gemeinschaftstreffen und Zusammenkünften teilzunehmen.",
+            "viewAll": "Alle Veranstaltungen anzeigen →"
+        },
+        "donationSection": {
+            "header": "Unterstützen Sie unsere Mission",
+            "subtitle": "Ihre großzügige Unterstützung hilft uns, unsere Mission fortzusetzen, den Glauben zu verbreiten, unserer Gemeinschaft zu dienen und Bedürftige zu erreichen.",
+            "cta": "Spenden Sie jetzt!",
+            "note": "Geben ist freiwillig und geschieht aus Liebe."
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "Über die EEC Kölner Kirche",
+            "subtitle": "Herzlich willkommen! Wir sind eine Gemeinschaft, die auf Glaube, Liebe und Nächstenliebe basiert. Begleiten Sie uns auf unserem Weg der Anbetung, der Gemeinschaft und des geistlichen Wachstums."
+        },
+        "missionVision": {
+            "title": "Unsere Mission und Vision",
+            "subtitle": "Wir möchten die Liebe Christi durch Gottesdienst, soziales Engagement und persönliche Jüngerschaft verbreiten. Unsere Vision ist eine Gemeinde, in der sich jeder willkommen, unterstützt und im Glauben wachsen kann.",
+            "items": {
+                "purpose": {
+                    "title": "Zweck",
+                    "description": "Menschen dazu anleiten, ein Leben zu führen, das auf Glauben und Nächstenliebe basiert."
+                },
+                "community": {
+                    "title": "Gemeinschaft",
+                    "description": "Wir schaffen ein einladendes und unterstützendes Umfeld für alle."
+                },
+                "growth": {
+                    "title": "Wachstum",
+                    "description": "Förderung des spirituellen und persönlichen Wachstums jedes Mitglieds."
+                }
+            }
+        },
+        "pastorSection": {
+            "title": "Pastor Yonatan Aklilu",
+            "subtitle": "Unser Pastor dient der Gemeinde seit über 20 Jahren und begleitet die Mitglieder in ihrem Glauben und ihrem persönlichen Wachstum. Seine Botschaft ist geprägt von Liebe, Hoffnung und Hingabe.",
+            "cta": "Lesen Sie die Botschaft des Pastors"
+        },
+        "historySection": {
+            "title": "Unsere Geschichte",
+            "subtitle": "Die 1995 gegründete EEC Kölner Kirche hat sich von einer kleinen Gruppe zu einer lebendigen Gemeinde entwickelt. Wir haben Tausenden von Familien und Einzelpersonen gedient und ihnen Gottesdienste, Bildungsangebote und Unterstützung in der Gemeindearbeit geboten."
+        }
+    },
+    "events": {
+        "intro": {
+            "eyebrow": "Begleiten Sie uns",
+            "title": "Kirchliche Veranstaltungen und Zusammenkünfte",
+            "subtitle": "Von wöchentlichen Gottesdiensten bis hin zu besonderen Programmen – entdecken Sie Momente, in denen Glaube, Gemeinschaft und Zusammengehörigkeit lebendig werden.",
+            "cue": "↓ Scrollen Sie, um die kommenden Veranstaltungen zu entdecken."
+        },
+        "featuredEvent": {
+            "eyebrow": "Ausgewählte Veranstaltung",
+            "cta": "Veranstaltungsdetails anzeigen"
+        },
+        "upcomingEvents": {
+            "title": "Kommende Veranstaltungen",
+            "subtitle": "Seien Sie dabei und erleben Sie bedeutungsvolle Momente, in denen Glaube, Gemeinschaft und Zusammengehörigkeit aufeinandertreffen."
+        },
+        "ctaSection": {
+            "title": "Sie sind jederzeit willkommen",
+            "subtitle": "Ob es Ihr erster Besuch ist oder Ihre Heimatgemeinde, wir laden Sie herzlich ein, mit uns Gottesdienst zu feiern und Gemeinschaft zu pflegen.",
+            "cta": "Planen Sie Ihren Besuch"
+        }
+    },
+    "sermons": {
+        "intro": {
+            "title": "Predigten & Lehren",
+            "subtitle": "Sehen und hören Sie Botschaften, die den Glauben stärken, Wachstum fördern und einen tieferen Weg mit Gott ermöglichen."
+        },
+        "featuredSermon": {
+            "eyebrow": "Neueste Predigt"
+        },
+        "tabs": {
+            "video": "Video-Predigten",
+            "audio": "Audio-Predigten"
+        },
+        "library": {
+            "title": "Predigtbibliothek"
+        },
+        "audio": {
+            "title": "Audio-Predigten"
+        },
+        "cta": {
+            "title": "Wachse im Glauben mit uns",
+            "subtitle": "Besuchen Sie uns persönlich oder lernen Sie weiter durch unsere Predigten."
+        }
+    },
+    "ministries": {
+        "intro": {
+            "title": "Unsere Dienste",
+            "subtitle": "Jeder Dienst ist ein Ort, um zu dienen, zu wachsen und bedeutungsvolle Beziehungen innerhalb unserer Kirchengemeinde aufzubauen.",
+            "cue": "↓ Scrollen, um die Liste der Dienste zu erkunden"
+        },
+        "grid": {
+            "cta": "Mehr erfahren →"
+        },
+        "purpose": {
+            "title": "Gemeinsam im Glauben wachsen",
+            "subtitle": "Dienste sind mehr als Programme — sie sind Orte, an denen der Glaube persönlich wird, Beziehungen tiefer wachsen und Dienst zu einer Lebensweise wird."
+        },
+        "ctaSection": {
+            "title": "Es gibt einen Platz für dich",
+            "subtitle": "Ob Sie Gemeinschaft suchen oder dienen möchten, wir laden Sie ein, einen Dienst zu finden, der sich wie Zuhause anfühlt.",
+            "cta": "Jetzt verbinden"
+        }
+    },
+    "contact": {
+        "intro": {
+            "title": "Kontakt & Besuch",
+            "subtitle": "Wir würden uns freuen, von Ihnen zu hören und Sie persönlich willkommen zu heißen. Melden Sie sich jederzeit oder kommen Sie zum Gottesdienst."
+        },
+        "info": {
+            "location": "Kirchstandort",
+            "phone": "Telefonnummer",
+            "serviceTimes": "Gottesdienstzeiten",
+            "services": {
+                "sunday": "Sonntagsgottesdienst: 9:00 Uhr",
+                "midweek": "Gebet unter der Woche: Mittwoch 18:00 Uhr"
+            }
+        },
+        "social": {
+            "title": "Verbinden Sie sich online mit uns",
+            "subtitle": "Bleiben Sie informiert, sehen Sie Predigten und seien Sie Teil unserer Online-Gemeinschaft."
+        }
+    },
+    "announcements": {
+        "intro": {
+            "title": "Kirchliche Bekanntmachungen",
+            "subtitle": "Bleiben Sie mit wöchentlichen Nachrichten, Programmen und wichtigen Informationen aus unserer Kirche auf dem Laufenden."
+        },
+        "list": {
+            "cta": "Mehr lesen →"
+        },
+        "ctaSection": {
+            "subtitle": "Haben Sie Fragen zu einer Bekanntmachung?",
+            "cta": "Kontaktieren Sie das Kirchenbüro"
+        }
+    },
+    "gallery": {
+        "title": "EEC Köln Fotogalerie",
+        "subtitle": "Momente des Gottesdienstes, der Gemeinschaft, des Dienstes und der Feier, geteilt von unserer Kirchengemeinde."
+    },
+    "pastorMessage": {
+        "intro": {
+            "title": "Eine Botschaft unseres Pastors",
+            "subtitle": "Willkommen in unserer Kirchengemeinde. Es ist meine Freude, Sie in eine Gemeinschaft einzuladen, die im Glauben, in der Liebe und in der Hoffnung auf Christus verwurzelt ist.",
+            "name": "Pastor Yonatan Aklilu"
+        },
+        "messages": {
+            "cta": "Gesamte Botschaft lesen →"
+        },
+        "scripture": {
+            "quote": "„Kommt zu mir, alle, die ihr mühselig und beladen seid; ich will euch erquicken.“",
+            "reference": "Matthäus 11:28"
+        },
+        "ctaSection": {
+            "title": "Wir würden Sie gerne kennenlernen",
+            "subtitle": "Kommen Sie diesen Sonntag oder melden Sie sich, wenn Sie Gebet oder Rat brauchen.",
+            "cta": "Kontakt aufnehmen"
+        }
+    },
+    "announcementDetail": {
+        "backLink": "← Zurück zu den Bekanntmachungen",
+        "contactLink": "Haben Sie Fragen? Kontaktieren Sie uns"
+    },
+    "eventDetail": {
+        "hero": {
+            "eyebrow": "Kirchenveranstaltung"
+        },
+        "meta": {
+            "dateTime": "Datum & Uhrzeit",
+            "location": "Ort"
+        },
+        "content": {
+            "title": "Über diese Veranstaltung"
+        },
+        "ctaSection": {
+            "title": "Wir würden uns freuen, Sie zu sehen",
+            "subtitle": "Kommen Sie, wie Sie sind, und schließen Sie sich uns in Gemeinschaft, Gebet und Kirche an.",
+            "cta": "Wegbeschreibung erhalten"
+        },
+        "backLink": "← Zurück zu allen Veranstaltungen"
+    },
+    "ministryDetail": {
+        "content": {
+            "title": "Über diesen Dienst"
+        },
+        "ctaSection": {
+            "title": "Mitmachen oder mehr erfahren",
+            "subtitle": "Sind Sie bereit, Teil eines Dienstes zu werden, der Ihren Glauben stärkt und Sie mit anderen verbindet? Melden Sie sich oder besuchen Sie eines unserer Programme noch heute.",
+            "cta": "Kontaktieren Sie uns"
+        }
+    },
+    "navbar": {
+        "logo": "EEC Köln",
+        "label": "Aktualisierungen",
+        "links": {
+            "about": "Über uns",
+            "events": "Veranstaltungen",
+            "sermons": "Predigten",
+            "ministries": "Dienste",
+            "contact": "Kontakt",
+            "donate": "Spenden",
+            "pastorMessage": "Predigt des Pastors",
+            "announcements": "Ankündigungen",
+            "gallery": "Galerie"
+        }
+    },
+    "footer": {
+        "identity": {
+            "title": "EEC Köln",
+            "subtitle": "Eine Gemeinschaft, die im Glauben, in der Liebe und im Dienst verwurzelt ist, verpflichtet, die Botschaft Christi zu teilen und einander zu unterstützen."
+        },
+        "navigation": {
+            "title": "Entdecken",
+            "links": {
+                "about": "Über uns",
+                "events": "Veranstaltungen",
+                "contact": "Kontakt"
+            }
+        },
+        "involved": {
+            "title": "Mitmachen",
+            "links": {
+                "ministries": "Dienste",
+                "donate": "Spenden"
+            }
+        },
+        "contact": {
+            "title": "Kontakt"
+        },
+        "social": {
+            "title": "Folgen Sie uns"
+        },
+        "divider": {
+            "rights": "Alle Rechte vorbehalten.",
+            "built": "Mit Sorgfalt und Glauben gebaut."
+        }
+    },
+    "donate": {
+        "intro": {
+            "title": "Unterstützen Sie unsere Mission",
+            "subtitle": "Ihre Großzügigkeit hilft uns, den Glauben zu verbreiten, unserer Gemeinschaft zu dienen und Bedürftige zu unterstützen."
+        },
+        "form": {
+            "title": "Wählen Sie Ihren Spendenbetrag",
+            "customPlaceholder": "Individueller Betrag",
+            "paypalButton": "Mit PayPal spenden",
+            "secureNote": "Sichere Spende über PayPal"
+        },
+        "impact": {
+            "title": "Was Ihre Spende unterstützt",
+            "items": [
+                {
+                    "title": "Gemeindehilfe",
+                    "description": "Mitgefühl zeigen durch Hilfsprojekte, lokale Unterstützungsinitiativen und Fürsorge für Bedürftige."
+                },
+                {
+                    "title": "Jugenddienst",
+                    "description": "Junge Menschen im Glauben, in der Gemeinschaft und in der Führung begleiten, damit sie geistlich und persönlich wachsen."
+                },
+                {
+                    "title": "Kirchenprogramme",
+                    "description": "Gottesdienste, Bibelkreise und Aktivitäten anbieten, die unsere Kirchengemeinde stärken."
+                },
+                {
+                    "title": "Missionen & Evangelisation",
+                    "description": "Das Evangelium lokal und weltweit verkünden, Missionare unterstützen und Hoffnung in Christus verbreiten."
+                }
+            ]
+        },
+        "trust": {
+            "message": "Spenden sind freiwillig und werden mit Liebe gegeben. Jeder Beitrag wird verantwortungsvoll verwendet, um die Mission unserer Kirche zu unterstützen."
+        },
+        "closing": {
+            "quote": "„Jeder gebe, wie er es sich im Herzen vorgenommen hat, nicht widerwillig oder unter Zwang.“",
+            "reference": "— 2. Korinther 9:7"
+        }
+    },
+    "verify": {
+        "loading": {
+            "title": "Ihre Spende wird überprüft",
+            "subtitle": "Bitte warten Sie, dies kann einige Sekunden dauern."
+        },
+        "success": {
+            "title": "Vielen Dank für Ihre Spende ❤️",
+            "subtitle": "Ihre Zahlung wurde erfolgreich abgeschlossen.",
+            "button": "Zurück zur Startseite"
+        },
+        "error": {
+            "title": "Zahlungsproblem",
+            "invalidSession": "Ungültige Zahlungssitzung.",
+            "notCompleted": "Die Zahlung wurde nicht abgeschlossen.",
+            "failedVerification": "Die Zahlung konnte nicht überprüft werden.",
+            "button": "Erneut versuchen"
+        }
+    },
+    "cancel": {
+        "title": "Spende abgebrochen",
+        "subtitle": "Ihre Zahlung wurde abgebrochen. Es wurde kein Geld abgebucht.",
+        "buttons": {
+            "donateAgain": "Erneut spenden",
+            "home": "Startseite"
+        }
+    }
+}

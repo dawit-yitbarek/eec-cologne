@@ -1,0 +1,329 @@
+{
+    "home": {
+        "hero": {
+            "title": "A Place of Faith,<br /> Hope, and Community",
+            "subtitle": "Join us as we walk together in faith, love, and service, following the teachings of Christ.",
+            "buttons": {
+                "primary": "Watch Latest Sermon",
+                "secondary": "Join Us This Sunday"
+            }
+        },
+        "ministriesSection": {
+            "title": "Our Ministries & Programs",
+            "subtitle": "There is a place for everyone to belong, serve, and grow in faith within our church community.",
+            "cta": "Learn more →"
+        },
+        "announcementsSection": {
+            "title": "Weekly Announcements",
+            "subtitle": "Stay informed about what is happening in our church community this week.",
+            "readMore": "Read more →",
+            "viewAll": "View all announcements →"
+        },
+        "eventsSection": {
+            "title": "Upcoming Events",
+            "subtitle": "We invite you to join us in worship, fellowship, and community gatherings.",
+            "viewAll": "View all events →"
+        },
+        "donationSection": {
+            "header": "Support Our Mission",
+            "subtitle": "Your generous support helps us continue our mission of spreading faith, serving our community, and reaching those in need.",
+            "cta": "Give a Donation",
+            "note": "Giving is voluntary and given with love."
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "About EEC Cologne Church",
+            "subtitle": "Welcome! We are a community rooted in faith, love, and service. Join us in our journey of worship, fellowship, and spiritual growth."
+        },
+        "missionVision": {
+            "title": "Our Mission & Vision",
+            "subtitle": "To spread the love of Christ through worship, community service, and personal discipleship. We envision a church where everyone feels welcome, supported, and empowered to grow in faith.",
+            "items": {
+                "purpose": {
+                    "title": "Purpose",
+                    "description": "Guiding people to live a life rooted in faith and service."
+                },
+                "community": {
+                    "title": "Community",
+                    "description": "Building a welcoming and supportive environment for all."
+                },
+                "growth": {
+                    "title": "Growth",
+                    "description": "Encouraging spiritual and personal growth for every member."
+                }
+            }
+        },
+        "pastorSection": {
+            "title": "Pastor Yonatan Aklilu",
+            "subtitle": "Our pastor has served the community for over 20 years, guiding members in faith and personal growth. His message is one of love, hope, and dedication.",
+            "cta": "Read Pastor’s Message"
+        },
+        "historySection": {
+            "title": "Our History",
+            "subtitle": "Founded in 1995, EEC Cologne Church has grown from a small gathering to a thriving community. We have served thousands of families and individuals, providing worship, education, and community support."
+        }
+    },
+    "events": {
+        "intro": {
+            "eyebrow": "Join Us",
+            "title": "Church Events & Gatherings",
+            "subtitle": "From weekly worship to special programs, discover moments where faith, fellowship, and community come alive.",
+            "cue": "↓ Scroll to explore upcoming events"
+        },
+        "featuredEvent": {
+            "eyebrow": "Featured Event",
+            "cta": "View Event Details"
+        },
+        "upcomingEvents": {
+            "title": "Upcoming Events",
+            "subtitle": "Come and be part of meaningful moments where faith, fellowship, and community meet."
+        },
+        "ctaSection": {
+            "title": "You’re Always Welcome",
+            "subtitle": "Whether it’s your first visit or your home church, we invite you to join us in worship and fellowship.",
+            "cta": "Plan Your Visit"
+        }
+    },
+    "sermons": {
+        "intro": {
+            "title": "Sermons & Teachings",
+            "subtitle": "Watch and listen to messages that encourage faith, growth, and a deeper walk with God."
+        },
+        "featuredSermon": {
+            "eyebrow": "Latest Sermon"
+        },
+        "tabs": {
+            "video": "Video Sermons",
+            "audio": "Audio Sermons"
+        },
+        "library": {
+            "title": "Sermon Library"
+        },
+        "audio": {
+            "title": "Audio Sermons"
+        },
+        "cta": {
+            "title": "Grow in Faith With Us",
+            "subtitle": "Join us in person or continue learning through our sermons."
+        }
+    },
+    "ministries": {
+        "intro": {
+            "title": "Our Ministries",
+            "subtitle": "Each ministry is a place to serve, grow, and build meaningful relationships within our church family.",
+            "cue": "↓ Scroll to explore ministries list"
+        },
+        "grid": {
+            "cta": "Learn more →"
+        },
+        "purpose": {
+            "title": "Growing Together in Faith",
+            "subtitle": "Ministries are more than programs — they are places where faith becomes personal, relationships grow deeper, and service becomes a way of life."
+        },
+        "ctaSection": {
+            "title": "There’s a Place for You",
+            "subtitle": "Whether you’re seeking community or looking to serve, we invite you to find a ministry that feels like home.",
+            "cta": "Get Connected"
+        }
+    },
+    "contact": {
+        "intro": {
+            "title": "Contact & Visit Us",
+            "subtitle": "We would love to hear from you and welcome you in person. Reach out anytime or join us for worship."
+        },
+        "info": {
+            "location": "Church Location",
+            "phone": "Phone Number",
+            "serviceTimes": "Service Times",
+            "services": {
+                "sunday": "Sunday Worship: 9:00 AM",
+                "midweek": "Midweek Prayer: Wednesday 6:00 PM"
+            }
+        },
+        "social": {
+            "title": "Connect With Us Online",
+            "subtitle": "Stay updated, watch sermons, and be part of our online community."
+        }
+    },
+    "announcements": {
+        "intro": {
+            "title": "Church Announcements",
+            "subtitle": "Stay updated with weekly news, programs, and important information from our church."
+        },
+        "list": {
+            "cta": "Read more →"
+        },
+        "ctaSection": {
+            "subtitle": "Have questions about any announcement?",
+            "cta": "Contact the church office"
+        }
+    },
+    "gallery": {
+        "title": "EEC Cologne Photo Gallery",
+        "subtitle": "Moments of worship, fellowship, service, and celebration shared by our church family."
+    },
+    "pastorMessage": {
+        "intro": {
+            "title": "A Message From Our Pastor",
+            "subtitle": "Welcome to our church family. It is my joy to invite you into a community rooted in faith, love, and hope in Christ.",
+            "name": "Pastor Yonatan Aklilu"
+        },
+        "messages": {
+            "cta": "Read full message →"
+        },
+        "scripture": {
+            "quote": "“Come to me, all who labor and are heavy laden, and I will give you rest.”",
+            "reference": "Matthew 11:28"
+        },
+        "ctaSection": {
+            "title": "We Would Love to Meet You",
+            "subtitle": "Join us this Sunday or reach out if you need prayer or guidance.",
+            "cta": "Get in Touch"
+        }
+    },
+    "announcementDetail": {
+        "backLink": "← Back to Announcements",
+        "contactLink": "Have questions? Contact us"
+    },
+    "eventDetail": {
+        "hero": {
+            "eyebrow": "Church Event"
+        },
+        "meta": {
+            "dateTime": "Date & Time",
+            "location": "Location"
+        },
+        "content": {
+            "title": "About This Event"
+        },
+        "ctaSection": {
+            "title": "We’d Love to See You",
+            "subtitle": "Come as you are and join us in fellowship, prayer, and community.",
+            "cta": "Get Directions"
+        },
+        "backLink": "← Back to all events"
+    },
+    "ministryDetail": {
+        "content": {
+            "title": "About This Ministry"
+        },
+        "ctaSection": {
+            "title": "Join or Learn More",
+            "subtitle": "Ready to be part of a ministry that grows your faith and connects you with others? Reach out or attend one of our programs today.",
+            "cta": "Contact Us"
+        }
+    },
+    "navbar": {
+        "logo": "EEC Cologne",
+        "label": "Updates",
+        "links": {
+            "about": "About",
+            "events": "Events",
+            "sermons": "Sermons",
+            "ministries": "Ministries",
+            "contact": "Contact",
+            "donate": "Donate",
+            "pastorMessage": "Pastor-message",
+            "announcements": "Announcements",
+            "gallery": "Gallery"
+        }
+    },
+    "footer": {
+        "identity": {
+            "title": "EEC Cologne",
+            "subtitle": "A community rooted in faith, love, and service, committed to sharing the message of Christ and supporting one another."
+        },
+        "navigation": {
+            "title": "Explore",
+            "links": {
+                "about": "About Us",
+                "events": "Events",
+                "contact": "Contact"
+            }
+        },
+        "involved": {
+            "title": "Get Involved",
+            "links": {
+                "ministries": "Ministries",
+                "donate": "Donate"
+            }
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "social": {
+            "title": "Follow Us"
+        },
+        "divider": {
+            "rights": "All rights reserved.",
+            "built": "Built with care and faith."
+        }
+    },
+    "donate": {
+        "intro": {
+            "title": "Support Our Mission",
+            "subtitle": "Your generosity helps us spread faith, serve our community, and support those in need."
+        },
+        "form": {
+            "title": "Choose Your Donation Amount",
+            "customPlaceholder": "Custom amount",
+            "paypalButton": "Donate with PayPal",
+            "secureNote": "Secure donation powered by PayPal"
+        },
+        "impact": {
+            "title": "What Your Giving Supports",
+            "items": [
+                {
+                    "title": "Community Outreach",
+                    "description": "Extending compassion through service projects, local support initiatives, and care for those in need."
+                },
+                {
+                    "title": "Youth Ministry",
+                    "description": "Guiding young people in faith, fellowship, and leadership to grow spiritually and personally."
+                },
+                {
+                    "title": "Church Programs",
+                    "description": "Providing worship services, Bible studies, and activities that strengthen our church family."
+                },
+                {
+                    "title": "Missions & Evangelism",
+                    "description": "Sharing the Gospel locally and globally, supporting missionaries, and spreading hope in Christ."
+                }
+            ]
+        },
+        "trust": {
+            "message": "Giving is voluntary and offered with love. Every contribution is used responsibly to support the mission of our church."
+        },
+        "closing": {
+            "quote": "“Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion.”",
+            "reference": "— 2 Corinthians 9:7"
+        }
+    },
+    "verify": {
+        "loading": {
+            "title": "Verifying your donation",
+            "subtitle": "Please wait, this may take a few seconds."
+        },
+        "success": {
+            "title": "Thank you for your donation ❤️",
+            "subtitle": "Your payment was successfully completed.",
+            "button": "Back to Home"
+        },
+        "error": {
+            "title": "Payment issue",
+            "invalidSession": "Invalid payment session.",
+            "notCompleted": "Payment was not completed.",
+            "failedVerification": "Failed to verify payment.",
+            "button": "Try Again"
+        }
+    },
+    "cancel": {
+        "title": "Donation cancelled",
+        "subtitle": "Your payment was cancelled. No money was charged.",
+        "buttons": {
+            "donateAgain": "Donate Again",
+            "home": "Home"
+        }
+    }
+}
