@@ -21,6 +21,10 @@ const sourceSans = Source_Sans_3({
 export const metadata = {
   title: "Ethiopian Evangelical Church in Cologne",
   description: "Faith, community, and worship",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
 };
 
 export default function RootLayout({ children }) {
