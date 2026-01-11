@@ -28,7 +28,7 @@ const ministries = [
         description:
             "Teaching biblical values in a loving and safe environment.",
         href: "/ministries/children",
-        image: "/images/ministries/children.png",
+        image: "/images/ministries/children.jpg",
     },
 ];
 

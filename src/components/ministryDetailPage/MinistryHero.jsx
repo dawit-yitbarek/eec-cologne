@@ -6,7 +6,7 @@ const MinistryHero = ({ title, subtitle, image }) => {
             <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
 
                 {/* Image */}
-                <div className="w-full md:w-1/2 h-64 md:h-96 overflow-hidden rounded-2xl shadow-lg">
+                <div className="w-full md:w-1/2 h-64 md:h-96 overflow-hidden rounded-2xl shadow-lg relative">
                     <Image
                         fill
                         src={image}

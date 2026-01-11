@@ -1,4 +1,5 @@
 import { DM_Serif_Display, Source_Sans_3 } from "next/font/google";
+import { Viewport } from 'next';
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Navbar from "@/components/Navbar";
@@ -21,16 +22,19 @@ const sourceSans = Source_Sans_3({
 export const metadata = {
   title: "Ethiopian Evangelical Church in Cologne",
   description: "Faith, community, and worship",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
 };
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dmSerif.variable} ${sourceSans.variable}`}>
-      <body className="bg-black">
+      <body className="bg-black overflow-x-hidden">
         <LanguageProvider>
           <Navbar />
           {children}
