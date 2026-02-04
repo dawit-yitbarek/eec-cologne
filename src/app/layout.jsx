@@ -1,5 +1,4 @@
 import { DM_Serif_Display, Source_Sans_3 } from "next/font/google";
-import { Viewport } from 'next';
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Navbar from "@/components/Navbar";

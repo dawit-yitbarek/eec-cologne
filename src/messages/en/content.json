@@ -17,12 +17,15 @@
             "title": "Weekly Announcements",
             "subtitle": "Stay informed about what is happening in our church community this week.",
             "readMore": "Read more →",
-            "viewAll": "View all announcements →"
+            "viewAll": "View all announcements →",
+            "noAnnouncement": "No announcement at the moment."
         },
         "eventsSection": {
             "title": "Upcoming Events",
             "subtitle": "We invite you to join us in worship, fellowship, and community gatherings.",
-            "viewAll": "View all events →"
+            "readMore": "Read more →",
+            "viewAll": "View all events →",
+            "noEvent": "No events at the moment."
         },
         "donationSection": {
             "header": "Support Our Mission",
@@ -73,11 +76,13 @@
         },
         "featuredEvent": {
             "eyebrow": "Featured Event",
-            "cta": "View Event Details"
+            "cta": "View Event Details",
+            "noFeatured": "No featured event at the moment."
         },
         "upcomingEvents": {
             "title": "Upcoming Events",
-            "subtitle": "Come and be part of meaningful moments where faith, fellowship, and community meet."
+            "subtitle": "Come and be part of meaningful moments where faith, fellowship, and community meet.",
+            "noUpcoming": "No upcoming events at the moment."
         },
         "ctaSection": {
             "title": "You’re Always Welcome",
@@ -98,10 +103,12 @@
             "audio": "Audio Sermons"
         },
         "library": {
-            "title": "Sermon Library"
+            "title": "Sermon Library",
+            "noVideoSermon": "No video sermon at the moment."
         },
         "audio": {
-            "title": "Audio Sermons"
+            "title": "Audio Sermons",
+            "noAudioSermon": "No audio sermon at the moment."
         },
         "cta": {
             "title": "Grow in Faith With Us",
@@ -152,7 +159,8 @@
             "subtitle": "Stay updated with weekly news, programs, and important information from our church."
         },
         "list": {
-            "cta": "Read more →"
+            "cta": "Read more →",
+            "noAnnouncement": "No announcement at the moment."
         },
         "ctaSection": {
             "subtitle": "Have questions about any announcement?",
@@ -161,7 +169,8 @@
     },
     "gallery": {
         "title": "EEC Cologne Photo Gallery",
-        "subtitle": "Moments of worship, fellowship, service, and celebration shared by our church family."
+        "subtitle": "Moments of worship, fellowship, service, and celebration shared by our church family.",
+        "noImages": "No images available at the moment."
     },
     "pastorMessage": {
         "intro": {
@@ -170,7 +179,8 @@
             "name": "Pastor Yonatan Aklilu"
         },
         "messages": {
-            "cta": "Read full message →"
+            "cta": "Read full message →",
+            "noPastorMessage": "No pastor message at the moment."
         },
         "scripture": {
             "quote": "“Come to me, all who labor and are heavy laden, and I will give you rest.”",
@@ -325,5 +335,15 @@
             "donateAgain": "Donate Again",
             "home": "Home"
         }
+    },
+    "error": {
+        "title": "Something went wrong",
+        "description": "We couldn’t load this content right now. Please check your connection or try again in a moment.",
+        "cta": "Try again"
+    },
+    "noContent": {
+        "title": "Content Not Available",
+        "subtitle": "The page you’re trying to view doesn’t have any content. It may have been deleted or moved.",
+        "button": "Back to Home"
     }
 }

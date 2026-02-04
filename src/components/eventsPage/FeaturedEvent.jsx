@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Calendar, Clock, MapPin } from "lucide-react";
+import { formatedTime, formatedDate } from "@/lib/formatDate";
+import { FeaturedEventSkeleton } from "../LoadingSkeletons";
 
-const FeaturedEvent = ({ content }) => {
+const FeaturedEvent = ({ content, event, lang, loading }) => {
+
     return (
         <section className="bg-[#F1EFEC] py-24">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -23,36 +26,47 @@ const FeaturedEvent = ({ content }) => {
                         {content.eyebrow}
                     </span>
 
-                    <h2 className="font-heading text-black text-3xl md:text-4xl leading-tight mb-4">
-                        Sunday Worship Service
-                    </h2>
+                    {loading && <FeaturedEventSkeleton />}
 
-                    <p className="font-body text-gray-700 mb-6 text-lg">
-                        Join us this Sunday for a powerful time of worship, prayer,
-                        and teaching as we gather as one church family.
-                    </p>
+                    {!loading && !event && (
+                        <p className="text-center text-gray-500 font-body">
+                            {content.noFeatured}
+                        </p>
+                    )}
 
-                    <div className="flex flex-wrap gap-6 mb-8 text-sm text-gray-600 font-body">
-                        <div className="flex items-center gap-2">
-                            <Calendar size={16} />
-                            <span>January 12, 2026</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <MapPin size={16} />
-                            <span>Gemeinde Köln-Mülheim Regentenstraße 78-80 51063 Köln</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <Clock size={16} />
-                            <span>9:00 AM</span>
-                        </div>
-                    </div>
+                    {event && (
+                        <>
+                            <h2 className="font-heading text-black text-3xl md:text-4xl leading-tight mb-4">
+                                {event.title[lang]}
+                            </h2>
 
-                    <Link
-                        href="/events/sunday-worship"
-                        className="inline-block bg-yellow-500 text-black px-6 py-3 rounded-md font-medium hover:bg-yellow-400 transition"
-                    >
-                        {content.cta}
-                    </Link>
+                            <p className="font-body text-gray-700 mb-6 text-lg">
+                                {event?.description[lang]}
+                            </p>
+
+                            <div className="flex flex-wrap gap-6 mb-8 text-sm text-gray-600 font-body">
+                                <div className="flex items-center gap-2">
+                                    <Calendar size={16} />
+                                    <span>{formatedDate(event.event_date)}</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <MapPin size={16} />
+                                    <span>{event?.location}</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <Clock size={16} />
+                                    <span>{formatedTime(event.start_time)} {event.end_time && (`- ${formatedTime(event.end_time)}`)}</span>
+                                </div>
+                            </div>
+
+                            <Link
+                                href={`/events/${event.slug}`}
+                                className="inline-block bg-yellow-500 text-black px-6 py-3 rounded-md font-medium hover:bg-yellow-400 transition"
+                            >
+                                {content.cta}
+                            </Link>
+                        </>
+                    )}
                 </div>
 
             </div>

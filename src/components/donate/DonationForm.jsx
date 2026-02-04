@@ -6,18 +6,19 @@ import axios from "axios";
 
 const DonationForm = ({ content }) => {
     const [donationAmount, setDonationAmount] = useState(0)
+    const [currency, setCurrency] = useState("usd")
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState("")
 
     const handlePayment = async () => {
         if (!donationAmount || donationAmount < 1) {
-            setError('Donation amount must be above or equal to 1 dollar')
+            setError(`Donation amount must be above or equal to 1 ${currency}`)
             return;
         }
         setError("")
         setLoading(true)
         try {
-            const orderRes = await axios.post("/api/create-order", { amount: donationAmount });
+            const orderRes = await axios.post("/api/create-order", { amount: donationAmount, currency });
             const approvalUrl = orderRes.data.links.find(link => link.rel === "approve").href;
             window.location.href = approvalUrl;
         } catch (err) {
@@ -34,10 +35,16 @@ const DonationForm = ({ content }) => {
 
                 <div className="bg-white rounded-3xl p-10 shadow-lg">
 
-                    <h2 className="font-heading text-2xl mb-8 text-center">
+                    <h2 className="font-heading text-2xl text-center">
                         {content.title}
                     </h2>
 
+                    <div className="flex justify-center items-center py-6">
+                        <select onChange={(e) => setCurrency(e.target.value)} className="focus:outline-none focus:ring-0">
+                            <option value="usd">USD ($)</option>
+                            <option value="eur">Euro (€)</option>
+                        </select>
+                    </div>
                     {/* Preset amounts */}
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
                         {[10, 25, 50, 100].map(amount => (
@@ -46,15 +53,15 @@ const DonationForm = ({ content }) => {
                                 key={amount}
                                 className={`${donationAmount === amount ? "bg-yellow-100 border-yellow-400" : ""} rounded-xl border border-black/10 py-4 font-heading text-lg bg-[#FFFEFC] hover:bg-yellow-100 hover:border-yellow-400 transition`}
                             >
-                                ${amount}
+                                {currency === "eur" ? "€" : "$"}{amount}
                             </button>
                         ))}
                     </div>
 
                     {/* Custom amount */}
                     <input
-                        onChange={(e) => setDonationAmount(e.target.value)}
-                        value={donationAmount}
+                        onChange={(e) => setDonationAmount(Number(e.target.value))}
+                        value={donationAmount < 1 ? "" : donationAmount}
                         type="number"
                         placeholder={content.customPlaceholder}
                         className="w-full rounded-xl border border-black/10 px-4 py-4 font-body mb-8 focus:outline-none focus:ring-2 focus:ring-yellow-400"
@@ -64,8 +71,8 @@ const DonationForm = ({ content }) => {
                     {/* PayPal button position */}
                     <button
                         onClick={handlePayment}
-                        disabled={!donationAmount || loading}
-                        className={`${!donationAmount || loading ? "opacity-70 cursor-not-allowed" : ""} flex justify-center items-center w-full rounded-xl bg-yellow-500 py-4 font-heading text-black text-lg hover:bg-yellow-400 transition`}
+                        disabled={donationAmount < 1 || loading}
+                        className={`${donationAmount < 1 || loading ? "opacity-70 cursor-not-allowed" : ""} flex justify-center items-center w-full rounded-xl bg-yellow-500 py-4 font-heading text-black text-lg hover:bg-yellow-400 transition`}
                     >
                         {loading ? <Loader size={32} className="animate-spin" /> : content.paypalButton}
                     </button>
@@ -76,7 +83,7 @@ const DonationForm = ({ content }) => {
 
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

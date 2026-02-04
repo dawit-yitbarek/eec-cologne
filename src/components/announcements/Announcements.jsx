@@ -1,52 +1,38 @@
 import Link from "next/link";
+import { ErrorBlock } from "../ErrorBlock";
+import { formatedDate } from "@/lib/formatDate";
+import { AnnouncementSkeleton } from "../LoadingSkeletons";
 
-const announcements = [
-    {
-        title: "Sunday Worship Service",
-        description:
-            "Join us every Sunday for worship, teaching, and fellowship.",
-        date: "February 11, 2026",
-        slug: "sunday-worship",
-    },
-    {
-        title: "Youth Bible Study",
-        description:
-            "Weekly Bible study for youth every Saturday afternoon.",
-        date: "February 13, 2026",
-        slug: "youth-bible-study",
-    },
-    {
-        title: "Community Outreach",
-        description:
-            "Volunteers needed for our upcoming outreach program.",
-        date: "February 15, 2026",
-        slug: "community-outreach",
-    },
-];
-
-const AnnouncementsList = ({ content }) => {
+const AnnouncementsList = ({ content, announcements, lang, refresh, loading, error }) => {
     return (
         <section className="py-4 bg-white">
             <div className="max-w-5xl mx-auto px-6">
-                {announcements.map((item) => (
+
+                {loading && <AnnouncementSkeleton />}
+                {!loading && error && <ErrorBlock onRetry={refresh} />}
+                {!loading && !error && announcements.length < 1 && (<p className="text-center py-16 text-gray-500 font-body">
+                    {content.noAnnouncement}
+                </p>)}
+
+                {announcements && announcements.map((announcement) => (
                     <div
-                        key={item.slug}
+                        key={announcement.slug}
                         className="bg-[#FFFEFC] border border-black/5 rounded-2xl shadow-xl shadow-black/10 my-4 p-8 md:p-10 hover:-translate-y-1 transition-all duration-300">
 
                         <span className="text-sm text-yellow-700 font-body">
-                            {item.date}
+                            {formatedDate(announcement.published_at)}
                         </span>
 
                         <h2 className="font-heading text-2xl md:text-3xl mt-3 mb-4">
-                            {item.title}
+                            {announcement.title[lang]}
                         </h2>
 
                         <p className="font-body text-gray-700 max-w-3xl">
-                            {item.description}
+                            {announcement.description && announcement.description[lang]}
                         </p>
 
                         <Link
-                            href={`/announcements/${item.slug}`}
+                            href={`/announcements/${announcement.slug}`}
                             className="inline-block mt-6 text-sm text-yellow-700 font-medium"
                         >
                             {content.cta}

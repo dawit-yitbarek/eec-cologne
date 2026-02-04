@@ -2,53 +2,37 @@
 
 import { useState } from "react";
 import PastorMessageModal from "./PastorMessageModal";
+import { formatedDate } from "@/lib/formatDate";
+import { ErrorBlock } from "../ErrorBlock";
+import { MessageSkeleton } from "../LoadingSkeletons";
 
-const messages = [
-    {
-        id: 1,
-        title: "Walking in Faith Every Day",
-        excerpt:
-            "Faith is not just for Sunday worship; it is a daily walk with God...",
-        content: `
-        Faith is not just for Sunday worship; it is a daily walk with God.
-        In every challenge, in every joy, we are invited to trust Him fully...
-        `,
-        date: "January 2026",
-    },
-    {
-        id: 2,
-        title: "Finding Peace in Uncertain Times",
-        excerpt:
-            "When the world feels unstable, God remains our firm foundation...",
-        content: `
-        When the world feels unstable, God remains our firm foundation.
-        `,
-        date: "February 2026",
-    },
-];
-
-const PastorMessageContent = ({ content }) => {
+const PastorMessageContent = ({ content, lang, loading, error, retry, messages }) => {
     const [activeMessage, setActiveMessage] = useState(null);
 
     return (
         <section className="py-24 bg-white">
             <div className="max-w-3xl mx-auto px-6 space-y-14">
 
-                {messages.map((msg) => (
+                {loading && <MessageSkeleton />}
+                {!loading && error && <ErrorBlock onRetry={retry} />}
+                {!loading && !error && messages.length < 1 && <p className="text-center text-gray-500 font-body">
+                    {content.noPastorMessage}
+                </p>}
+                {messages && messages.map((msg, i) => (
                     <div
-                        key={msg.id}
+                        key={i}
                         className="border-b border-black/10 pb-10"
                     >
                         <h3 className="font-heading text-2xl mb-3 text-[#030303]">
-                            {msg.title}
+                            {msg.title[lang]}
                         </h3>
 
                         <span className="block text-sm text-gray-500 mb-4 font-body">
-                            {msg.date}
+                            {formatedDate(msg.published_at)}
                         </span>
 
                         <p className="font-body text-gray-700 leading-relaxed mb-6">
-                            {msg.excerpt}
+                            {msg.description && msg.description[lang]}
                         </p>
 
                         <button
@@ -64,6 +48,7 @@ const PastorMessageContent = ({ content }) => {
                     <PastorMessageModal
                         message={activeMessage}
                         onClose={() => setActiveMessage(null)}
+                        lang={lang}
                     />
                 )}
 

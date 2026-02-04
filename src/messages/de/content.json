@@ -17,12 +17,15 @@
             "title": "Wöchentliche Ankündigungen",
             "subtitle": "Bleiben Sie über die Geschehnisse in unserer Kirchengemeinde in dieser Woche informiert.",
             "readMore": "Mehr lesen →",
-            "viewAll": "Alle Ankündigungen ansehen →"
+            "viewAll": "Alle Ankündigungen ansehen →",
+            "noAnnouncement": "Derzeit gibt es keine Ankündigung."
         },
         "eventsSection": {
             "title": "Kommende Veranstaltungen",
             "subtitle": "Wir laden Sie herzlich ein, an unseren Gottesdiensten, Gemeinschaftstreffen und Zusammenkünften teilzunehmen.",
-            "viewAll": "Alle Veranstaltungen anzeigen →"
+            "readMore": "Mehr lesen →",
+            "viewAll": "Alle Veranstaltungen anzeigen →",
+            "noEvent": "Derzeit finden keine Veranstaltungen statt."
         },
         "donationSection": {
             "header": "Unterstützen Sie unsere Mission",
@@ -73,11 +76,13 @@
         },
         "featuredEvent": {
             "eyebrow": "Ausgewählte Veranstaltung",
-            "cta": "Veranstaltungsdetails anzeigen"
+            "cta": "Veranstaltungsdetails anzeigen",
+            "noFeatured": "Derzeit ist keine Veranstaltung im Fokus."
         },
         "upcomingEvents": {
             "title": "Kommende Veranstaltungen",
-            "subtitle": "Seien Sie dabei und erleben Sie bedeutungsvolle Momente, in denen Glaube, Gemeinschaft und Zusammengehörigkeit aufeinandertreffen."
+            "subtitle": "Seien Sie dabei und erleben Sie bedeutungsvolle Momente, in denen Glaube, Gemeinschaft und Zusammengehörigkeit aufeinandertreffen.",
+            "noUpcoming": "Derzeit sind keine Veranstaltungen anstehend."
         },
         "ctaSection": {
             "title": "Sie sind jederzeit willkommen",
@@ -98,10 +103,12 @@
             "audio": "Audio-Predigten"
         },
         "library": {
-            "title": "Predigtbibliothek"
+            "title": "Predigtbibliothek",
+            "noVideoSermon": "Derzeit ist keine Video-Predigt verfügbar."
         },
         "audio": {
-            "title": "Audio-Predigten"
+            "title": "Audio-Predigten",
+            "noAudioSermon": "Derzeit ist keine Audio-Predigt verfügbar."
         },
         "cta": {
             "title": "Wachse im Glauben mit uns",
@@ -152,7 +159,8 @@
             "subtitle": "Bleiben Sie mit wöchentlichen Nachrichten, Programmen und wichtigen Informationen aus unserer Kirche auf dem Laufenden."
         },
         "list": {
-            "cta": "Mehr lesen →"
+            "cta": "Mehr lesen →",
+            "noAnnouncement": "Derzeit gibt es keine Ankündigung."
         },
         "ctaSection": {
             "subtitle": "Haben Sie Fragen zu einer Bekanntmachung?",
@@ -161,7 +169,8 @@
     },
     "gallery": {
         "title": "EEC Köln Fotogalerie",
-        "subtitle": "Momente des Gottesdienstes, der Gemeinschaft, des Dienstes und der Feier, geteilt von unserer Kirchengemeinde."
+        "subtitle": "Momente des Gottesdienstes, der Gemeinschaft, des Dienstes und der Feier, geteilt von unserer Kirchengemeinde.",
+        "noImages": "Derzeit sind keine Bilder verfügbar."
     },
     "pastorMessage": {
         "intro": {
@@ -170,7 +179,8 @@
             "name": "Pastor Yonatan Aklilu"
         },
         "messages": {
-            "cta": "Gesamte Botschaft lesen →"
+            "cta": "Gesamte Botschaft lesen →",
+            "noPastorMessage": "Im Moment liegt keine Predigt vor."
         },
         "scripture": {
             "quote": "„Kommt zu mir, alle, die ihr mühselig und beladen seid; ich will euch erquicken.“",
@@ -325,5 +335,15 @@
             "donateAgain": "Erneut spenden",
             "home": "Startseite"
         }
+    },
+    "error": {
+        "title": "Etwas ist schiefgelaufen.",
+        "description": "Dieser Inhalt konnte momentan nicht geladen werden. Bitte überprüfen Sie Ihre Internetverbindung oder versuchen Sie es später erneut.",
+        "cta": "Versuchen Sie es erneut"
+    },
+    "noContent": {
+        "title": "Inhalt nicht verfügbar",
+        "subtitle": "Die Seite, die Sie versuchen anzuzeigen, hat keinen Inhalt. Sie wurde möglicherweise gelöscht oder verschoben.",
+        "button": "Zurück zur Startseite"
     }
 }

@@ -1,17 +1,9 @@
-const sermons = [
-    {
-        title: "The Power of Prayer",
-        date: "Jan 2026",
-        videoId: "Nv6E95dQ4RA",
-    },
-    {
-        title: "Living a Christ-Centered Life",
-        date: "Dec 2025",
-        videoId: "eGQYy79W0L0",
-    },
-];
+import { formatedDate } from "@/lib/formatDate";
+import { getYouTubeEmbedUrl } from "@/lib/getEmbedUrl";
+import { SermonCardSkeleton } from "../LoadingSkeletons";
+import { ErrorBlock } from "../ErrorBlock";
 
-const SermonLibrary = ({ content }) => {
+const SermonLibrary = ({ content, loading, error, lang, videoSermons, retry }) => {
     return (
         <section className="py-8 bg-[#FFFEFC]">
             <div className="max-w-6xl mx-auto px-6">
@@ -20,8 +12,18 @@ const SermonLibrary = ({ content }) => {
                     {content.title}
                 </h3>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                    {sermons.map((sermon, index) => (
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
+
+                    {loading && <SermonCardSkeleton />}
+                    {error && !loading && <div className="col-span-full flex justify-center items-center p-8">
+                        <ErrorBlock onRetry={retry} />
+                    </div>}
+                    {!loading && !error && videoSermons.length === 0 && (
+                        <p className="col-span-full text-center text-gray-500">
+                            {content.noVideoSermon}
+                        </p>
+                    )}
+                    {videoSermons && videoSermons.map((sermon, index) => (
                         <div
                             key={index}
                             className="group rounded-2xl bg-white shadow-md hover:shadow-xl transition-all duration-300"
@@ -29,7 +31,7 @@ const SermonLibrary = ({ content }) => {
 
                             <div className="aspect-video overflow-hidden rounded-t-2xl">
                                 <iframe
-                                    src={`https://www.youtube.com/embed/${sermon.videoId}`}
+                                    src={getYouTubeEmbedUrl(sermon.media_url)}
                                     className="w-full h-full"
                                     allowFullScreen
                                 />
@@ -38,11 +40,11 @@ const SermonLibrary = ({ content }) => {
                             {/* Content */}
                             <div className="p-6">
                                 <h4 className="font-heading text-lg mb-2">
-                                    {sermon.title}
+                                    {sermon.description && sermon.description[lang]}
                                 </h4>
 
                                 <span className="text-xs text-yellow-700">
-                                    {sermon.date}
+                                    {formatedDate(sermon.published_at)}
                                 </span>
                             </div>
                         </div>

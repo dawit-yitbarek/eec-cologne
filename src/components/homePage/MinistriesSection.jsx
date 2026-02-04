@@ -14,12 +14,12 @@ const ministries = [
         href: "/ministries/women",
         image: "/images/ministries/women.jpg",
     },
-    {
-        title: "Men’s Fellowship",
-        description: "Strengthening faith, leadership, and accountability.",
-        href: "/ministries/men",
-        image: "/images/ministries/men.jpg",
-    },
+    // {
+    //     title: "Men’s Fellowship",
+    //     description: "Strengthening faith, leadership, and accountability.",
+    //     href: "/ministries/men",
+    //     image: "/images/ministries/men.jpg",
+    // },
     {
         title: "Children’s Ministry",
         description: "Teaching children biblical values in a loving environment.",
@@ -44,15 +44,15 @@ const MinistriesSection = ({ content }) => {
                 </div>
 
                 {/* Grid */}
-                <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+                <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
                     {ministries.map((ministry) => (
                         <Link
                             key={ministry.title}
                             href={ministry.href}
-                            className="group block bg-white rounded-2xl overflow-hidden border border-black/5 shadow-lg shadow-black/10 hover:shadow-2xl hover:shadow-yellow-100/60 hover:-translate-y-1 transition-all duration-300"
+                            className="group inline-block w-fit bg-white rounded-2xl overflow-hidden border border-black/5 shadow-lg shadow-black/10 hover:shadow-2xl hover:shadow-yellow-100/60 hover:-translate-y-1 transition-all duration-300"
                         >
                             {/* Image */}
-                            <div className="relative h-44 overflow-hidden">
+                            <div className="relative h-48 overflow-hidden">
                                 <Image
                                     src={ministry.image}
                                     alt={ministry.title}

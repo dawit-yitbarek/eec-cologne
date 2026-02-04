@@ -1,4 +1,6 @@
-const EventHero = ({ content }) => {
+import { EventDetailHeroSkeleton } from "../LoadingSkeletons";
+
+const EventHero = ({ content, event, loading, lang }) => {
     return (
         <section className="pt-32 pb-20 bg-gradient-to-b from-[#F1EFEC] via-[#F8F6F2] to-white">
             <div className="max-w-4xl mx-auto px-6 text-center">
@@ -6,13 +8,13 @@ const EventHero = ({ content }) => {
                     {content.eyebrow}
                 </span>
 
+                {loading && <EventDetailHeroSkeleton />}
                 <h1 className="font-heading text-4xl md:text-5xl tracking-tight mb-6 text-[#030303]">
-                    Women’s Fellowship
+                    {event.title && event.title[lang]}
                 </h1>
 
                 <p className="font-body text-lg text-gray-600 max-w-2xl mx-auto">
-                    A space for prayer, encouragement, and meaningful connection
-                    within our church family.
+                    {event.description && event.description[lang]}
                 </p>
             </div>
         </section>

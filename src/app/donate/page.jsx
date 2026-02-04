@@ -11,7 +11,6 @@ import ClosingMessage from "@/components/donate/ClosingMessage";
 export default function Donate() {
     const { lang } = useLanguage();
     const messages = getContent(lang, 'donate');
-    console.log()
     return (
         <>
             <DonateIntro content={messages.intro} />

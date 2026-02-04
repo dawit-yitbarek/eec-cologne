@@ -20,7 +20,7 @@ export default function VerifyClient() {
     useEffect(() => {
         if (!orderID) {
             setStatus("error");
-            setMessage(messages.error.invalidSession);
+            setMessage(messages.error.invalidSession );
             return;
         }
 
@@ -32,7 +32,7 @@ export default function VerifyClient() {
                     setStatus("success");
                 } else {
                     setStatus("error");
-                    setMessage(messages.error.notCompleted);
+                    setMessage(`${messages.error.notCompleted} (${res.data.status})`);
                 }
             } catch {
                 setStatus("error");
