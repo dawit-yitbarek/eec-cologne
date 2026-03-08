@@ -36,7 +36,7 @@ const PastorMessageModal = ({ message, onClose, lang }) => {
             {formatedDate(message.published_at)}
           </span>
 
-          <div className="indent-8 font-body text-gray-700 leading-loose space-y-6 whitespace-pre-line">
+          <div className="indent-8 font-body text-gray-700 leading-loose space-y-6 wrap-pre">
             {message.content[lang]}
           </div>
         </div>

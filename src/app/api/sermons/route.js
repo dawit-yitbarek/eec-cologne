@@ -1,19 +1,8 @@
-import { supabaseAdmin } from "@/lib/supabaseServer";
 import { isAdmin } from "@/lib/verifyAdmin";
+import { getSermons } from "@/lib/sermons";
 
 export async function GET() {
-  const { data, error } = await supabaseAdmin
-    .from("sermons")
-    .select("id, description, type, media_url, published_at")
-    .order("published_at", { ascending: false });
-
-  if (error) {
-    console.log("Error from getSermons function", error);
-    return new Response(JSON.stringify({ error: "Failed to fetch sermons" }), {
-      status: 500,
-    });
-  }
-
+  const data = await getSermons();
   return new Response(JSON.stringify(data), { status: 200 });
 }
 

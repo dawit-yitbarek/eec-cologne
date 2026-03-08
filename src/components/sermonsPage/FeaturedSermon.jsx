@@ -1,22 +1,18 @@
 import { formatedDate } from "@/lib/formatDate";
-import { getYouTubeEmbedUrl } from "@/lib/getEmbedUrl";
-import { FeaturedSermonSkeleton } from "../LoadingSkeletons";
+import LazyYouTubeEmbed from "./LazyYouTubeEmbed";
 
-const FeaturedSermon = ({ content, featuredSermon, lang, loading }) => {
+const FeaturedSermon = ({ content, featuredSermon, lang }) => {
     return (
         <section className="py-8 bg-white">
             <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-                {loading && <FeaturedSermonSkeleton />}
                 {/* Video */}
                 {featuredSermon && <>
-                    <div className="aspect-video rounded-2xl overflow-hidden shadow-xl">
-                        <iframe
-                            src={getYouTubeEmbedUrl(featuredSermon.media_url)}
-                            className="w-full h-full"
-                            allowFullScreen
-                        />
-                    </div>
+                    <LazyYouTubeEmbed
+                        url={featuredSermon.media_url}
+                        title={featuredSermon.description?.[lang]}
+                        className="shadow-xl"
+                    />
 
                     {/* Info */}
                     <div>

@@ -28,3 +28,12 @@
 body {
   font-family: var(--font-body);
 }
+
+#about-page,
+#ministry-page {
+  white-space: pre-line;
+}
+
+.wrap-pre {
+  white-space: pre-wrap;
+}

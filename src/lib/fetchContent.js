@@ -41,7 +41,7 @@ export async function fetchContent(
 
     setContent(data);
   } catch (error) {
-    console.log(`Error from fetchContent at ${path}`, error);
+    // In production builds, avoid writing to console unless needed for debugging
     setError(true);
   } finally {
     setLoading(false);

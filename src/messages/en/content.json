@@ -1,349 +1,464 @@
 {
-    "home": {
-        "hero": {
-            "title": "A Place of Faith,<br /> Hope, and Community",
-            "subtitle": "Join us as we walk together in faith, love, and service, following the teachings of Christ.",
-            "buttons": {
-                "primary": "Watch Latest Sermon",
-                "secondary": "Join Us This Sunday"
-            }
-        },
-        "ministriesSection": {
-            "title": "Our Ministries & Programs",
-            "subtitle": "There is a place for everyone to belong, serve, and grow in faith within our church community.",
-            "cta": "Learn more →"
-        },
-        "announcementsSection": {
-            "title": "Weekly Announcements",
-            "subtitle": "Stay informed about what is happening in our church community this week.",
-            "readMore": "Read more →",
-            "viewAll": "View all announcements →",
-            "noAnnouncement": "No announcement at the moment."
-        },
-        "eventsSection": {
-            "title": "Upcoming Events",
-            "subtitle": "We invite you to join us in worship, fellowship, and community gatherings.",
-            "readMore": "Read more →",
-            "viewAll": "View all events →",
-            "noEvent": "No events at the moment."
-        },
-        "donationSection": {
-            "header": "Support Our Mission",
-            "subtitle": "Your generous support helps us continue our mission of spreading faith, serving our community, and reaching those in need.",
-            "cta": "Give a Donation",
-            "note": "Giving is voluntary and given with love."
-        }
+  "home": {
+    "hero": {
+      "title": "A Place of Faith,<br /> Hope, and Community",
+      "subtitle": "Join us as we walk together in faith, love, and service, following the teachings of Christ.",
+      "buttons": {
+        "primary": "Watch Latest Sermon",
+        "secondary": "Join Us This Sunday"
+      }
     },
-    "about": {
-        "hero": {
-            "title": "About EEC Cologne Church",
-            "subtitle": "Welcome! We are a community rooted in faith, love, and service. Join us in our journey of worship, fellowship, and spiritual growth."
-        },
-        "missionVision": {
-            "title": "Our Mission & Vision",
-            "subtitle": "To spread the love of Christ through worship, community service, and personal discipleship. We envision a church where everyone feels welcome, supported, and empowered to grow in faith.",
-            "items": {
-                "purpose": {
-                    "title": "Purpose",
-                    "description": "Guiding people to live a life rooted in faith and service."
-                },
-                "community": {
-                    "title": "Community",
-                    "description": "Building a welcoming and supportive environment for all."
-                },
-                "growth": {
-                    "title": "Growth",
-                    "description": "Encouraging spiritual and personal growth for every member."
-                }
-            }
-        },
-        "pastorSection": {
-            "title": "Pastor Yonatan Aklilu",
-            "subtitle": "Our pastor has served the community for over 20 years, guiding members in faith and personal growth. His message is one of love, hope, and dedication.",
-            "cta": "Read Pastor’s Message"
-        },
-        "historySection": {
-            "title": "Our History",
-            "subtitle": "Founded in 1995, EEC Cologne Church has grown from a small gathering to a thriving community. We have served thousands of families and individuals, providing worship, education, and community support."
-        }
+    "ministriesSection": {
+      "title": "Our Ministries & Programs",
+      "subtitle": "There is a place for everyone to belong, serve, and grow in faith within our church community.",
+      "cta": "Learn more →"
     },
-    "events": {
-        "intro": {
-            "eyebrow": "Join Us",
-            "title": "Church Events & Gatherings",
-            "subtitle": "From weekly worship to special programs, discover moments where faith, fellowship, and community come alive.",
-            "cue": "↓ Scroll to explore upcoming events"
-        },
-        "featuredEvent": {
-            "eyebrow": "Featured Event",
-            "cta": "View Event Details",
-            "noFeatured": "No featured event at the moment."
-        },
-        "upcomingEvents": {
-            "title": "Upcoming Events",
-            "subtitle": "Come and be part of meaningful moments where faith, fellowship, and community meet.",
-            "noUpcoming": "No upcoming events at the moment."
-        },
-        "ctaSection": {
-            "title": "You’re Always Welcome",
-            "subtitle": "Whether it’s your first visit or your home church, we invite you to join us in worship and fellowship.",
-            "cta": "Plan Your Visit"
-        }
+    "announcementsSection": {
+      "title": "Weekly Announcements",
+      "subtitle": "Stay informed about what is happening in our church community this week.",
+      "readMore": "Read more →",
+      "viewAll": "View all announcements →",
+      "noAnnouncement": "No announcement at the moment."
     },
-    "sermons": {
-        "intro": {
-            "title": "Sermons & Teachings",
-            "subtitle": "Watch and listen to messages that encourage faith, growth, and a deeper walk with God."
+    "eventsSection": {
+      "title": "Upcoming Events",
+      "subtitle": "We invite you to join us in worship, fellowship, and community gatherings.",
+      "readMore": "Read more →",
+      "viewAll": "View all events →",
+      "noEvent": "No events at the moment."
+    },
+    "donationSection": {
+      "header": "Support Our Mission",
+      "subtitle": "Your generous support helps us continue our mission of spreading faith, serving our community, and reaching those in need.",
+      "cta": "Give a Donation",
+      "note": "Giving is voluntary and given with love."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Ethiopian Evangelical Church of Cologne Mülheim",
+      "subtitle": "Welcome! We are a community rooted in faith, love, and service. Join us in our journey of worship, fellowship, and spiritual growth."
+    },
+    "missionVision": {
+      "title": "Our Mission & Vision",
+      "subtitle": "To spread the love of Christ through worship, community service, and personal discipleship. We envision a church where everyone feels welcome, supported, and empowered to grow in faith.",
+      "items": {
+        "purpose": {
+          "title": "Purpose",
+          "description": "Guiding people to live a life rooted in faith and service."
         },
-        "featuredSermon": {
-            "eyebrow": "Latest Sermon"
+        "community": {
+          "title": "Community",
+          "description": "Building a welcoming and supportive environment for all."
         },
-        "tabs": {
-            "video": "Video Sermons",
-            "audio": "Audio Sermons"
-        },
-        "library": {
-            "title": "Sermon Library",
-            "noVideoSermon": "No video sermon at the moment."
-        },
-        "audio": {
-            "title": "Audio Sermons",
-            "noAudioSermon": "No audio sermon at the moment."
-        },
-        "cta": {
-            "title": "Grow in Faith With Us",
-            "subtitle": "Join us in person or continue learning through our sermons."
+        "growth": {
+          "title": "Growth",
+          "description": "Encouraging spiritual and personal growth for every member."
         }
+      }
+    },
+    "pastorSection": {
+      "title": "Pastor Yonatan Aklilu",
+      "subtitle": "Our pastor has served the community for over 20 years, guiding members in faith and personal growth. His message is one of love, hope, and dedication.",
+      "cta": "Read Pastor’s Message"
+    },
+    "historySection": {
+      "title": "Our History",
+      "subtitle": "Founded in 1995, EEC Cologne Church has grown from a small gathering to a thriving community. We have served thousands of families and individuals, providing worship, education, and community support.",
+      "paragraphs": [
+        {
+          "title": "A Humble Beginning",
+          "content": "The spiritual journey of the Cologne Church began on April 16, 1995. Our beginning was humble, as we initially gathered in the homes of a few believers. Despite these small beginnings, our hunger for the Word of God was immense. This period of prayer and fellowship in homes laid the foundation for our growth. As God opened more doors, we transitioned to meeting in smaller halls."
+        },
+        {
+          "title": "From a Migrant Church to a Settled Community",
+          "content": "In the early years of our history, our church primarily served as a spiritual haven for students and migrants who had come to Germany for studies or temporary stays. Many members would return to their home countries after completing their education, yet the church persisted in faithfully sowing the Word of God. Through God's grace, this dynamic has evolved over time. Today, our church has transformed into a stable and deep-rooted community of permanent residents. After 21 years of faithful fellowship, this stability led to our formal registration as Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. at the District Court of Cologne (Amtsgericht Köln) under the registration number VR 19124 on November 24, 2016. This transition has provided the church with greater stability, expanded our ministries, and allowed us to build a strong foundation for the coming generation."
+        },
+        {
+          "title": "Perseverance Through Trials ",
+          "content": "The history of our church has not been without its challenges. Over the years, our journey has been marked by various obstacles and difficult circumstances. However, these trials served as tools to refine our faith and allow us to experience God’s faithfulness firsthand. Because the Lord has sustained us with His grace through every hurdle, our church stands today on a firm foundation."
+        },
+        {
+          "title": "Our Ministries Today",
+          "content": "Today, the Cologne Church is active in various areas of ministry to strengthen the spiritual life of its members:\n • Worship Ministry: Worship in spirit and truth that draws the hearts of believers closer to the Lord. \n •Word Ministry: Timely and life-changing biblical teachings. \n •In-depth Bible Study: Programs designed to help believers explore the Word of God and be deeply rooted in divine truth \n\n A little one shall become a thousand, and a small one a strong nation. I, the Lord, will hasten it in its time. Isaiah 60:22"
+        }
+      ]
+    },
+    "statementOfFaith": {
+      "title": "Statement of Faith",
+      "intro": "Our beliefs are rooted in Scripture and shape everything we do. Below is a summary of what we hold as truth.",
+      "items": [
+        {
+          "title": "Concerning the Holy Scriptures",
+          "text": "We believe that the Bible (Old and New Testaments), consisting of 66 books, is the divinely inspired and immutable Word of God. 'Sola Scriptura' (Scripture Alone) is our sole and sovereign authority for faith, life, and church order. (2 Tim. 3:16-17)"
+        },
+        {
+          "title": "Concerning the Trinity",
+          "text": "We believe in one God, known through His eternal, infinite nature and as the Creator of all. This one God is revealed in three persons (Father, Son, and Holy Spirit), who are co-equal and co-eternal in nature, existence, and authority. While God is Triune, the three persons exist in unity (Coinherence) without confusion or division. We believe this divine mystery is the way God reveals Himself to believers and makes them partakers of His life. (Matt. 28:19-20)"
+        },
+        {
+          "title": "Concerning the Lord Jesus Christ",
+          "text": "We believe that the Lord Jesus Christ is the Son of God by nature, fully God and fully man. We believe He was born of the Virgin Mary through the overshadowing of the Holy Spirit; died on the cross for our sins; was buried; descended into Hades (the place of the dead) and conquered the power of death; and rose bodily on the third day. We believe He ascended into heaven, sits at the right hand of the Father, intercedes for us today, and will return in great glory. (Col. 1:19-20)"
+        },
+        {
+          "title": "Concerning the Holy Spirit",
+          "text": "Just as the Lord Jesus Christ came forth from the Father (John 8:42, 16:28), the Holy Spirit also proceeds from the Father (John 15:26) and is the third person of the Trinity with His own distinct agency. We believe the Holy Spirit is God, to be worshiped and glorified with the Father and the Son. He is a personal Spirit who sanctifies, guides, and comforts believers, and convicts the world of sin. (John 15:26, 16:12-14)"
+        },
+        {
+          "title": "Concerning the Fall and Human Sinfulness",
+          "text": "We believe that although man was created in the image and likeness of God, he fell through transgression, and as a result, sin entered the entire human race. Consequently, all humans are sinful by nature, are fallen short of the glory of God, and cannot escape the judgment of death and sin through their own efforts. Salvation is obtained only by grace (Sola Gratia) through faith in Christ Jesus. When a person repents and accepts the Lord, they are born again and receive the authority to be children of God. (Eph. 2:8, John 1:12-13)"
+        },
+        {
+          "title": "The Fullness and Gifts of the Holy Spirit",
+          "text": "We believe that a person saved by faith in Jesus Christ is sealed and filled with the Holy Spirit and receives the gifts of the Spirit (Eph. 1:13, Acts 2:4, 1 Cor. 12:7–11). We believe the Holy Spirit has a dual aspect of filling in a believer’s life: inward filling for the believer’s spiritual growth and sanctification, and outward filling that clothes the believer with spiritual power for service and gospel witness. We believe the various spiritual gifts given for the edification of the Church are still active today (1 Cor. 12:7–11)."
+        }
+      ]
+    }
+  },
+  "events": {
+    "intro": {
+      "eyebrow": "Join Us",
+      "title": "Church Events & Gatherings",
+      "subtitle": "From weekly worship to special programs, discover moments where faith, fellowship, and community come alive.",
+      "cue": "↓ Scroll to explore upcoming events"
+    },
+    "featuredEvent": {
+      "eyebrow": "Featured Event",
+      "cta": "View Event Details",
+      "noFeatured": "No featured event at the moment."
+    },
+    "upcomingEvents": {
+      "title": "Upcoming Events",
+      "subtitle": "Come and be part of meaningful moments where faith, fellowship, and community meet.",
+      "noUpcoming": "No upcoming events at the moment."
+    },
+    "ctaSection": {
+      "title": "You’re Always Welcome",
+      "subtitle": "Whether it’s your first visit or your home church, we invite you to join us in worship and fellowship.",
+      "cta": "Plan Your Visit"
+    }
+  },
+  "sermons": {
+    "intro": {
+      "title": "Sermons & Teachings",
+      "subtitle": "Watch and listen to messages that encourage faith, growth, and a deeper walk with God."
+    },
+    "featuredSermon": {
+      "eyebrow": "Latest Sermon"
+    },
+    "tabs": {
+      "video": "Video Sermons",
+      "audio": "Audio Sermons"
+    },
+    "library": {
+      "title": "Sermon Library",
+      "noVideoSermon": "No video sermon at the moment."
+    },
+    "audio": {
+      "title": "Audio Sermons",
+      "noAudioSermon": "No audio sermon at the moment."
+    },
+    "cta": {
+      "title": "Grow in Faith With Us",
+      "subtitle": "Join us in person or continue learning through our sermons."
+    }
+  },
+  "ministries": {
+    "intro": {
+      "title": "Our Ministries",
+      "subtitle": "Each ministry is a place to serve, grow, and build meaningful relationships within our church family.",
+      "cue": "↓ Scroll to explore ministries list"
+    },
+    "grid": {
+      "cta": "Learn more →"
+    },
+    "purpose": {
+      "title": "Growing Together in Faith",
+      "subtitle": "Ministries are more than programs — they are places where faith becomes personal, relationships grow deeper, and service becomes a way of life."
+    },
+    "ctaSection": {
+      "title": "There’s a Place for You",
+      "subtitle": "Whether you’re seeking community or looking to serve, we invite you to find a ministry that feels like home.",
+      "cta": "Get Connected"
+    }
+  },
+  "contact": {
+    "intro": {
+      "title": "Contact & Visit Us",
+      "subtitle": "We would love to hear from you and welcome you in person. Reach out anytime or join us for worship."
+    },
+    "info": {
+      "location": "Church Location",
+      "phone": "Phone Number",
+      "email": {
+        "title": "Email Address",
+        "general": "for general inquiries",
+        "contact": "for contact"
+      },
+      "serviceTimes": "Service Times",
+      "services": {
+        "sunday": "Sunday Worship: 9:00 AM",
+        "midweek": "Midweek Prayer: Wednesday 6:00 PM"
+      }
+    },
+    "social": {
+      "title": "Connect With Us Online",
+      "subtitle": "Stay updated, watch sermons, and be part of our online community."
+    }
+  },
+  "announcements": {
+    "intro": {
+      "title": "Church Announcements",
+      "subtitle": "Stay updated with weekly news, programs, and important information from our church."
+    },
+    "list": {
+      "cta": "Read more →",
+      "noAnnouncement": "No announcement at the moment."
+    },
+    "ctaSection": {
+      "subtitle": "Have questions about any announcement?",
+      "cta": "Contact the church office"
+    }
+  },
+  "gallery": {
+    "title": "EEC Cologne Photo Gallery",
+    "subtitle": "Moments of worship, fellowship, service, and celebration shared by our church family.",
+    "noImages": "No images available at the moment."
+  },
+  "pastorMessage": {
+    "intro": {
+      "title": "A Message From Our Pastor",
+      "subtitle": "Welcome to our church family. It is my joy to invite you into a community rooted in faith, love, and hope in Christ.",
+      "name": "Pastor Yonatan Aklilu"
+    },
+    "messages": {
+      "cta": "Read full message →",
+      "noPastorMessage": "No pastor message at the moment."
+    },
+    "scripture": {
+      "quote": "“Come to me, all who labor and are heavy laden, and I will give you rest.”",
+      "reference": "Matthew 11:28"
+    },
+    "ctaSection": {
+      "title": "We Would Love to Meet You",
+      "subtitle": "Join us this Sunday or reach out if you need prayer or guidance.",
+      "cta": "Get in Touch"
+    }
+  },
+  "announcementDetail": {
+    "backLink": "← Back to Announcements",
+    "contactLink": "Have questions? Contact us"
+  },
+  "eventDetail": {
+    "hero": {
+      "eyebrow": "Church Event"
+    },
+    "meta": {
+      "dateTime": "Date & Time",
+      "location": "Location"
+    },
+    "content": {
+      "title": "About This Event"
+    },
+    "ctaSection": {
+      "title": "We’d Love to See You",
+      "subtitle": "Come as you are and join us in fellowship, prayer, and community.",
+      "cta": "Get Directions"
+    },
+    "backLink": "← Back to all events"
+  },
+  "ministryDetail": {
+    "content": {
+      "title": "About This Ministry"
     },
     "ministries": {
-        "intro": {
-            "title": "Our Ministries",
-            "subtitle": "Each ministry is a place to serve, grow, and build meaningful relationships within our church family.",
-            "cue": "↓ Scroll to explore ministries list"
+      "youth": {
+        "hero": {
+          "title": "Youth Ministry",
+          "subtitle": "Guiding young people to grow in faith, character, and purpose.",
+          "image": "/images/ministries/youth.jpg"
         },
-        "grid": {
-            "cta": "Learn more →"
+        "description": "We invest in the next generation by equipping young people to live out their faith with courage and conviction.",
+        "sections": [
+          {
+            "title": "Our Vision",
+            "text": "The Children's Ministry is based on the biblical principle: 'Train up a child in the way he should go, and when he is old he will not depart from it' (Proverbs 22:6). Our goal is to help children develop a personal relationship with Lord Jesus Christ and grow spiritually by knowing the Word of God from an early age. As written in Luke 2:52, 'And Jesus increased in wisdom and stature, and in favor with God and men,' our ministry goes beyond merely babysitting children during worship services; we focus on teaching them to achieve holistic growth in the likeness of Christ."
+          },
+          {
+            "title": "Our Core Values",
+            "text": "To ensure parents can entrust us with their children with absolute peace of mind, we uphold the highest safety standards: \n • Qualified Mentors: Our leaders are spiritually grounded, carefully vetted, and receive continuous training in both ministry and childcare. \n • Safe & Engaging Environment: We maintain clean, child-friendly spaces that are regularly secured against potential hazards. Safe & Engaging Environment: We maintain clean, child-friendly spaces that are regularly secured against potential hazards. \n • Active Supervision: We take our responsibility seriously. Children are never left unattended, ensuring a protective environment free from external risks. \n • Transparent Communication: We value the partnership of parents. Our schedules are open, and parents are always welcome to observe our ministry or request updates."
+          }
+        ]
+      },
+      "children": {
+        "hero": {
+          "title": "Children's Ministry",
+          "subtitle": "Teaching biblical values in a loving and safe environment.",
+          "image": "/images/ministries/children.jpg"
         },
-        "purpose": {
-            "title": "Growing Together in Faith",
-            "subtitle": "Ministries are more than programs — they are places where faith becomes personal, relationships grow deeper, and service becomes a way of life."
-        },
-        "ctaSection": {
-            "title": "There’s a Place for You",
-            "subtitle": "Whether you’re seeking community or looking to serve, we invite you to find a ministry that feels like home.",
-            "cta": "Get Connected"
-        }
+        "description": "Our children’s ministry is designed to help kids know God, grow in character, and experience faith in practical ways.",
+        "sections": [
+          {
+            "title": "Our Vision",
+            "text": "The Children's Ministry is based on the biblical principle: 'Train up a child in the way he should go, and when he is old he will not depart from it' (Proverbs 22:6). Our goal is to help children develop a personal relationship with Lord Jesus Christ and grow spiritually by knowing the Word of God from an early age. As written in Luke 2:52, 'And Jesus increased in wisdom and stature, and in favor with God and men,' our ministry goes beyond merely babysitting children during worship services; we focus on teaching them to achieve holistic growth in the likeness of Christ."
+          },
+          {
+            "title": "Key Focus Areas",
+            "text": "To ensure parents can entrust us with their children with absolute peace of mind, we uphold the highest safety standards: \n • Qualified Mentors: Our leaders are spiritually grounded, carefully vetted, and receive continuous training in both ministry and childcare. \n • Safe & Engaging Environment: We maintain clean, child-friendly spaces that are regularly secured against potential hazards. Safe & Engaging Environment: We maintain clean, child-friendly spaces that are regularly secured against potential hazards. \n • Active Supervision: We take our responsibility seriously. Children are never left unattended, ensuring a protective environment free from external risks. \n • Transparent Communication: We value the partnership of parents. Our schedules are open, and parents are always welcome to observe our ministry or request updates."
+          },
+          {
+            "title": "Safety and Protection Guidelines",
+            "text": "To ensure parents can entrust us with their children with absolute peace of mind, we uphold the highest safety standards: \n • Qualified Mentors: Our leaders are spiritually grounded, carefully vetted, and receive continuous training in both ministry and childcare. \n • Safe & Engaging Environment: We maintain clean, child-friendly spaces that are regularly secured against potential hazards. \n • Active Supervision: We take our responsibility seriously. Children are never left unattended, ensuring a protective environment free from external risks. \n • Transparent Communication: We value the partnership of parents. Our schedules are open, and parents are always welcome to observe our ministry or request updates."
+          },
+          {
+            "title": "Children's Fellowship",
+            "text": "We offer various activities to make children eager to come to church. By singing, praying, and eating together, we lay the foundation for their future brotherhood and sisterhood"
+          },
+          {
+            "title": "Continuity of Service",
+            "text": "Our ministry guides children from the time they join the church until they reach the age of water baptism. After baptism, they transition into the Youth Ministry."
+          },
+          {
+            "title": "Answering Children's Questions",
+            "text": "In collaboration with parents, we strive to answer children's spiritual and personal questions, providing guidance for their next steps in life."
+          }
+        ]
+      }
+    },
+    "notFound": {
+      "title": "Ministry Not Found",
+      "message": "We couldn’t find that ministry. Please return to the ministries list to choose one."
+    },
+    "ctaSection": {
+      "title": "Join or Learn More",
+      "subtitle": "Ready to be part of a ministry that grows your faith and connects you with others? Reach out or attend one of our programs today.",
+      "cta": "Contact Us"
+    }
+  },
+  "navbar": {
+    "logo": "EEC Cologne Mülheim",
+    "label": "Updates",
+    "links": {
+      "about": "About",
+      "events": "Events",
+      "sermons": "Sermons",
+      "ministries": "Ministries",
+      "contact": "Contact",
+      "donate": "Donate",
+      "pastorMessage": "Pastor-message",
+      "announcements": "Announcements",
+      "gallery": "Gallery"
+    }
+  },
+  "footer": {
+    "identity": {
+      "title": "EEC Cologne Mülheim",
+      "subtitle": "A community rooted in faith, love, and service, committed to sharing the message of Christ and supporting one another."
+    },
+    "navigation": {
+      "title": "Explore",
+      "links": {
+        "about": "About Us",
+        "events": "Events",
+        "contact": "Contact"
+      }
+    },
+    "involved": {
+      "title": "Get Involved",
+      "links": {
+        "ministries": "Ministries",
+        "donate": "Donate"
+      }
     },
     "contact": {
-        "intro": {
-            "title": "Contact & Visit Us",
-            "subtitle": "We would love to hear from you and welcome you in person. Reach out anytime or join us for worship."
+      "title": "Contact"
+    },
+    "email": {
+      "general": "for general inquiries",
+      "contact": "for contact"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "divider": {
+      "rights": "All rights reserved.",
+      "built": "Built with care and faith."
+    }
+  },
+  "donate": {
+    "intro": {
+      "title": "Support Our Mission",
+      "subtitle": "Your generosity helps us spread faith, serve our community, and support those in need."
+    },
+    "form": {
+      "title": "Choose Your Donation Amount",
+      "customPlaceholder": "Custom amount",
+      "paypalButton": "Donate with PayPal",
+      "secureNote": "Secure donation powered by PayPal"
+    },
+    "impact": {
+      "title": "What Your Giving Supports",
+      "items": [
+        {
+          "title": "Community Outreach",
+          "description": "Extending compassion through service projects, local support initiatives, and care for those in need."
         },
-        "info": {
-            "location": "Church Location",
-            "phone": "Phone Number",
-            "serviceTimes": "Service Times",
-            "services": {
-                "sunday": "Sunday Worship: 9:00 AM",
-                "midweek": "Midweek Prayer: Wednesday 6:00 PM"
-            }
+        {
+          "title": "Youth Ministry",
+          "description": "Guiding young people in faith, fellowship, and leadership to grow spiritually and personally."
         },
-        "social": {
-            "title": "Connect With Us Online",
-            "subtitle": "Stay updated, watch sermons, and be part of our online community."
+        {
+          "title": "Church Programs",
+          "description": "Providing worship services, Bible studies, and activities that strengthen our church family."
+        },
+        {
+          "title": "Missions & Evangelism",
+          "description": "Sharing the Gospel locally and globally, supporting missionaries, and spreading hope in Christ."
         }
+      ]
     },
-    "announcements": {
-        "intro": {
-            "title": "Church Announcements",
-            "subtitle": "Stay updated with weekly news, programs, and important information from our church."
-        },
-        "list": {
-            "cta": "Read more →",
-            "noAnnouncement": "No announcement at the moment."
-        },
-        "ctaSection": {
-            "subtitle": "Have questions about any announcement?",
-            "cta": "Contact the church office"
-        }
+    "trust": {
+      "message": "Giving is voluntary and offered with love. Every contribution is used responsibly to support the mission of our church."
     },
-    "gallery": {
-        "title": "EEC Cologne Photo Gallery",
-        "subtitle": "Moments of worship, fellowship, service, and celebration shared by our church family.",
-        "noImages": "No images available at the moment."
+    "closing": {
+      "quote": "“Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion.”",
+      "reference": "— 2 Corinthians 9:7"
+    }
+  },
+  "verify": {
+    "loading": {
+      "title": "Verifying your donation",
+      "subtitle": "Please wait, this may take a few seconds."
     },
-    "pastorMessage": {
-        "intro": {
-            "title": "A Message From Our Pastor",
-            "subtitle": "Welcome to our church family. It is my joy to invite you into a community rooted in faith, love, and hope in Christ.",
-            "name": "Pastor Yonatan Aklilu"
-        },
-        "messages": {
-            "cta": "Read full message →",
-            "noPastorMessage": "No pastor message at the moment."
-        },
-        "scripture": {
-            "quote": "“Come to me, all who labor and are heavy laden, and I will give you rest.”",
-            "reference": "Matthew 11:28"
-        },
-        "ctaSection": {
-            "title": "We Would Love to Meet You",
-            "subtitle": "Join us this Sunday or reach out if you need prayer or guidance.",
-            "cta": "Get in Touch"
-        }
-    },
-    "announcementDetail": {
-        "backLink": "← Back to Announcements",
-        "contactLink": "Have questions? Contact us"
-    },
-    "eventDetail": {
-        "hero": {
-            "eyebrow": "Church Event"
-        },
-        "meta": {
-            "dateTime": "Date & Time",
-            "location": "Location"
-        },
-        "content": {
-            "title": "About This Event"
-        },
-        "ctaSection": {
-            "title": "We’d Love to See You",
-            "subtitle": "Come as you are and join us in fellowship, prayer, and community.",
-            "cta": "Get Directions"
-        },
-        "backLink": "← Back to all events"
-    },
-    "ministryDetail": {
-        "content": {
-            "title": "About This Ministry"
-        },
-        "ctaSection": {
-            "title": "Join or Learn More",
-            "subtitle": "Ready to be part of a ministry that grows your faith and connects you with others? Reach out or attend one of our programs today.",
-            "cta": "Contact Us"
-        }
-    },
-    "navbar": {
-        "logo": "EEC Cologne",
-        "label": "Updates",
-        "links": {
-            "about": "About",
-            "events": "Events",
-            "sermons": "Sermons",
-            "ministries": "Ministries",
-            "contact": "Contact",
-            "donate": "Donate",
-            "pastorMessage": "Pastor-message",
-            "announcements": "Announcements",
-            "gallery": "Gallery"
-        }
-    },
-    "footer": {
-        "identity": {
-            "title": "EEC Cologne",
-            "subtitle": "A community rooted in faith, love, and service, committed to sharing the message of Christ and supporting one another."
-        },
-        "navigation": {
-            "title": "Explore",
-            "links": {
-                "about": "About Us",
-                "events": "Events",
-                "contact": "Contact"
-            }
-        },
-        "involved": {
-            "title": "Get Involved",
-            "links": {
-                "ministries": "Ministries",
-                "donate": "Donate"
-            }
-        },
-        "contact": {
-            "title": "Contact"
-        },
-        "social": {
-            "title": "Follow Us"
-        },
-        "divider": {
-            "rights": "All rights reserved.",
-            "built": "Built with care and faith."
-        }
-    },
-    "donate": {
-        "intro": {
-            "title": "Support Our Mission",
-            "subtitle": "Your generosity helps us spread faith, serve our community, and support those in need."
-        },
-        "form": {
-            "title": "Choose Your Donation Amount",
-            "customPlaceholder": "Custom amount",
-            "paypalButton": "Donate with PayPal",
-            "secureNote": "Secure donation powered by PayPal"
-        },
-        "impact": {
-            "title": "What Your Giving Supports",
-            "items": [
-                {
-                    "title": "Community Outreach",
-                    "description": "Extending compassion through service projects, local support initiatives, and care for those in need."
-                },
-                {
-                    "title": "Youth Ministry",
-                    "description": "Guiding young people in faith, fellowship, and leadership to grow spiritually and personally."
-                },
-                {
-                    "title": "Church Programs",
-                    "description": "Providing worship services, Bible studies, and activities that strengthen our church family."
-                },
-                {
-                    "title": "Missions & Evangelism",
-                    "description": "Sharing the Gospel locally and globally, supporting missionaries, and spreading hope in Christ."
-                }
-            ]
-        },
-        "trust": {
-            "message": "Giving is voluntary and offered with love. Every contribution is used responsibly to support the mission of our church."
-        },
-        "closing": {
-            "quote": "“Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion.”",
-            "reference": "— 2 Corinthians 9:7"
-        }
-    },
-    "verify": {
-        "loading": {
-            "title": "Verifying your donation",
-            "subtitle": "Please wait, this may take a few seconds."
-        },
-        "success": {
-            "title": "Thank you for your donation ❤️",
-            "subtitle": "Your payment was successfully completed.",
-            "button": "Back to Home"
-        },
-        "error": {
-            "title": "Payment issue",
-            "invalidSession": "Invalid payment session.",
-            "notCompleted": "Payment was not completed.",
-            "failedVerification": "Failed to verify payment.",
-            "button": "Try Again"
-        }
-    },
-    "cancel": {
-        "title": "Donation cancelled",
-        "subtitle": "Your payment was cancelled. No money was charged.",
-        "buttons": {
-            "donateAgain": "Donate Again",
-            "home": "Home"
-        }
+    "success": {
+      "title": "Thank you for your donation ❤️",
+      "subtitle": "Your payment was successfully completed.",
+      "button": "Back to Home"
     },
     "error": {
-        "title": "Something went wrong",
-        "description": "We couldn’t load this content right now. Please check your connection or try again in a moment.",
-        "cta": "Try again"
-    },
-    "noContent": {
-        "title": "Content Not Available",
-        "subtitle": "The page you’re trying to view doesn’t have any content. It may have been deleted or moved.",
-        "button": "Back to Home"
+      "title": "Payment issue",
+      "invalidSession": "Invalid payment session.",
+      "notCompleted": "Payment was not completed.",
+      "failedVerification": "Failed to verify payment.",
+      "button": "Try Again"
     }
+  },
+  "cancel": {
+    "title": "Donation cancelled",
+    "subtitle": "Your payment was cancelled. No money was charged.",
+    "buttons": {
+      "donateAgain": "Donate Again",
+      "home": "Home"
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "We couldn’t load this content right now. Please check your connection or try again in a moment.",
+    "cta": "Try again"
+  },
+  "noContent": {
+    "title": "Content Not Available",
+    "subtitle": "The page you’re trying to view doesn’t have any content. It may have been deleted or moved.",
+    "button": "Back to Home"
+  }
 }

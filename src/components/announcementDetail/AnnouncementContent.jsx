@@ -13,7 +13,7 @@ const AnnouncementContent = ({ announcement, loading, lang, error, retry }) => {
         ) : !announcement?.content ? (
           <EmptyState />
         ) : (
-          <article className="font-body text-gray-700 text-lg leading-relaxed space-y-6">
+          <article className="font-body text-gray-700 text-lg leading-relaxed space-y-6 wrap-pre">
             <p className="indent-8">{announcement?.content && announcement.content[lang]}</p>
           </article>
         )}
