@@ -54,7 +54,7 @@ const LazyYouTubeEmbed = ({ url, title, className, style }) => {
             loading="lazy"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black/40 cursor-pointer group">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/80 shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:bg-white">
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/80 shadow-lg transition-transform duration-300 group-hover:scale-115 group-hover:bg-white">
               <span className="ml-1 text-3xl text-black">▶</span>
             </div>
           </div>
