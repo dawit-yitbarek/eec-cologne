@@ -19,7 +19,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata = {
-  title: "Ethiopian Evangelical Church in Cologne",
+  title: "Ethiopian Evangelical Church of Cologne Mülheim",
   description: "Faith, community, and worship",
 };
 
