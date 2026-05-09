@@ -2,10 +2,16 @@ import axios from "axios";
 
 export async function POST(req) {
     const { amount, currency } = await req.json();
-    const APP_URL = process.env.APP_URL
+    const formattedAmount = parseFloat(amount).toFixed(2);
+    const APP_URL = process.env.APP_URL;
     const PAYPAL_CLIENT = process.env.PAYPAL_CLIENT_ID;
     const PAYPAL_SECRET = process.env.PAYPAL_SECRET;
-    const PAYPAL_API = process.env.PAYPAL_API || "https://api-m.sandbox.paypal.com";
+    const isSandbox = process.env.PAYPAL_MODE === "sandbox";
+    const PAYPAL_API = isSandbox ? "https://api-m.sandbox.paypal.com" : "https://api-m.paypal.com";
+
+    if (!APP_URL || !PAYPAL_CLIENT || !PAYPAL_SECRET) {
+        return new Response(JSON.stringify({ error: "Missing PayPal or app configuration." }), { status: 500 });
+    }
 
     try {
         // Get access token
@@ -26,12 +32,12 @@ export async function POST(req) {
                 intent: "CAPTURE",
                 purchase_units: [
                     {
-                        amount: { currency_code: currency, value: amount },
+                        amount: { currency_code: currency, value: formattedAmount },
                     },
                 ],
                 application_context: {
-                    return_url: `${APP_URL}/verify`,
-                    cancel_url: `${APP_URL}/cancel`,
+                    return_url: `${APP_URL}/donate/verify`,
+                    cancel_url: `${APP_URL}/donate/cancel`,
                     user_action: "PAY_NOW",
                 },
             },

@@ -11,15 +11,19 @@ const DonationForm = ({ content }) => {
   const [error, setError] = useState("");
 
   const handlePayment = async () => {
-    if (!donationAmount || donationAmount < 1) {
-      setError(`Donation amount must be above or equal to 1 ${currency}`);
+    const amountNum = parseFloat(donationAmount);
+
+    if (!amountNum || amountNum <= 0) {
+      setError(`Donation amount must be above 0 ${currency}`);
       return;
     }
+    const formattedAmount = amountNum.toFixed(2);
+
     setError("");
     setLoading(true);
     try {
       const orderRes = await axios.post("/api/create-order", {
-        amount: donationAmount,
+        amount: formattedAmount,
         currency,
       });
       const approvalUrl = orderRes.data.links.find(
@@ -28,7 +32,7 @@ const DonationForm = ({ content }) => {
       window.location.href = approvalUrl;
     } catch (err) {
       setError("Something went wrong");
-      console.error(err);
+      console.error("Error initializing payment: ", err);
     } finally {
       setLoading(false);
     }
@@ -72,7 +76,7 @@ const DonationForm = ({ content }) => {
             <input
               type="number"
               onChange={(e) => setDonationAmount(Number(e.target.value))}
-              value={donationAmount < 1 ? "" : donationAmount}
+              value={donationAmount <= 0 ? "" : donationAmount}
               placeholder={content.customPlaceholder}
               className="w-full rounded-xl border border-black/10 pl-8 pr-4 py-4 font-body focus:outline-none focus:ring-2 focus:ring-yellow-400"
             />
@@ -84,8 +88,8 @@ const DonationForm = ({ content }) => {
           {/* PayPal button position */}
           <button
             onClick={handlePayment}
-            disabled={donationAmount < 1 || loading}
-            className={`${donationAmount < 1 || loading ? "opacity-70 cursor-not-allowed" : ""} flex justify-center items-center w-full rounded-xl bg-yellow-500 py-4 font-heading text-black text-lg hover:bg-yellow-400 transition`}
+            disabled={donationAmount <= 0 || loading}
+            className={`${donationAmount <= 0 || loading ? "opacity-70 cursor-not-allowed" : ""} flex justify-center items-center w-full rounded-xl bg-yellow-500 py-4 font-heading text-black text-lg hover:bg-yellow-400 transition`}
           >
             {loading ? (
               <Loader size={32} className="animate-spin" />

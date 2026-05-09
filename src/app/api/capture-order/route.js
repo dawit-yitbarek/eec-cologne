@@ -4,8 +4,16 @@ export async function POST(req) {
   const { orderID } = await req.json();
   const PAYPAL_CLIENT = process.env.PAYPAL_CLIENT_ID;
   const PAYPAL_SECRET = process.env.PAYPAL_SECRET;
-  const PAYPAL_API =
-    process.env.PAYPAL_API || "https://api-m.sandbox.paypal.com";
+  const isSandbox = process.env.PAYPAL_MODE === "sandbox";
+  const PAYPAL_API = isSandbox ? "https://api-m.sandbox.paypal.com" : "https://api-m.paypal.com";
+
+  if (!orderID) {
+    return new Response(JSON.stringify({ error: "Missing PayPal orderID." }), { status: 400 });
+  }
+
+  if (!PAYPAL_CLIENT || !PAYPAL_SECRET) {
+    return new Response(JSON.stringify({ error: "Missing PayPal credentials." }), { status: 500 });
+  }
 
   try {
     const tokenRes = await axios.post(
@@ -25,14 +33,17 @@ export async function POST(req) {
     );
 
     const capture = captureRes.data.purchase_units?.[0]?.payments?.captures?.[0];
-    console.log("This is capture: ", capture?.status)
     const status = capture?.status || captureRes.data.status;
 
     return new Response(JSON.stringify({ status, raw: captureRes.data }), { status: 200 });
   } catch (err) {
-    console.log("Error on capturing ", err.message);
-    return new Response(JSON.stringify({ error: err.message }), {
-      status: 500,
+    const statusCode = err.response?.status || 500;
+    const errorData = err.response?.data || { error: err.message };
+
+    console.log(`PayPal Error (${statusCode}):`, errorData);
+
+    return new Response(JSON.stringify(errorData), {
+      status: statusCode
     });
   }
 }

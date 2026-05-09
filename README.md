@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Church Website
 
-## Getting Started
+A multilingual Next.js website for a church community, including pages for donations, ministries, gallery, statement of faith, and an imprint (Impressum).
 
-First, run the development server:
+## Project Structure
+
+- `src/app/` - application routes and pages
+- `src/components/` - reusable UI components
+- `src/context/` - language context and state handling
+- `src/lib/` - language utilities and message loading
+- `src/messages/` - localized content for English, German, and Amharic
+- `public/images/` - image assets used across the site
+
+## Local Development
+
+Install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Supported Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Home page
+- Donate page with payment handling and verification
+- Gallery
+- Ministries (Children, Youth)
+- Statement of Faith
+- Impressum
+- About page
 
-## Learn More
+## Localization
 
-To learn more about Next.js, take a look at the following resources:
+This project supports multiple languages using JSON-based message files in `src/messages/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Build the production version with:
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Then start the production server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run start
+```
+
+For static hosting or deployment platforms, use the built output from `.next`.
+
+## Environment Variables
+
+The donation flow uses PayPal, so you must configure your environment variables before running the app.
+
+Create a `.env.local` file with at least:
+
+```bash
+PAYPAL_CLIENT_ID=your-paypal-client-id
+PAYPAL_SECRET=your-paypal-secret-key
+```
+
+If you use a different environment file setup, make sure the values are accessible to your server and client where required.
+
+## Notes
+
+- The app uses the Next.js App Router with `src/app` pages.
+- Language selection is managed by `src/context/LanguageContext.jsx` and `src/lib/language.js`.
+- Donation and order handling are implemented in API routes under `src/app/api/`.
+- PayPal is used for donation processing.

@@ -33,7 +33,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dmSerif.variable} ${sourceSans.variable}`}>
-      <body className="bg-black overflow-x-hidden">
+      <body className="overflow-x-hidden">
         <LanguageProvider>
           <Navbar />
           {children}
