@@ -4,7 +4,6 @@
       "title": "Herzlich willkommen in unserem geistlichen Zuhause in Köln",
       "subtitle": "Ein Ort der Anbetung, der Gemeinschaft und des lebendigen Wortes Gottes.",
       "quote": " \"Der Kleinste wird zu Tausend werden und der Geringste zu einem mächtigen Volk. Ich, der HERR, werde es zu seiner Zeit eilends ausrichten.\" (Jesaja 60,22)",
-      "test": "",
       "buttons": {
         "primary": "Sehen Sie sich die neueste Predigt an",
         "secondary": "Besuchen Sie uns diesen Sonntag!"
@@ -45,28 +44,7 @@
         }
       ]
     },
-    "ministriesSection": {
-      "title": "Unsere Dienste und Programme",
-      "subtitle": "In unserer Kirchengemeinde gibt es für jeden einen Platz, an dem er dazugehören, dienen und im Glauben wachsen kann.",
-      "cta": "Mehr erfahren →"
-    },
-    "announcementsSection": {
-      "title": "Ankündigungen",
-      "subtitle": "Bleiben Sie über die Geschehnisse in unserer Kirchengemeinde informiert.",
-      "readMore": "Mehr lesen →",
-      "viewAll": "Alle Ankündigungen ansehen →",
-      "noAnnouncement": "Derzeit gibt es keine Ankündigung."
-    },
-    "eventsSection": {
-      "title": "Kommende Veranstaltungen",
-      "subtitle": "Wir laden Sie herzlich ein, an unseren Gottesdiensten, Gemeinschaftstreffen und Zusammenkünften teilzunehmen.",
-      "readMore": "Mehr lesen →",
-      "viewAll": "Alle Veranstaltungen anzeigen →",
-      "noEvent": "Derzeit finden keine Veranstaltungen statt."
-    },
     "donationSection": {
-      "header": "Unterstützen Sie unsere Mission",
-      "subtitle": "Ihre großzügige Unterstützung hilft uns, unsere Mission fortzusetzen, den Glauben zu verbreiten, unserer Gemeinschaft zu dienen und Bedürftige zu erreichen.",
       "cta": "Spenden Sie jetzt!",
       "note": "Geben ist freiwillig und geschieht aus Liebe."
     }
@@ -350,7 +328,6 @@
   },
   "navbar": {
     "logo": "Äthiopische Evangelische Gemeinde Köln Mülheim",
-    "label": "Aktualisierungen",
     "links": {
       "home": "Startseite",
       "about": "Über uns",
