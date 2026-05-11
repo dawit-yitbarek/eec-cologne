@@ -44,28 +44,7 @@
         }
       ]
     },
-    "ministriesSection": {
-      "title": "Our Ministries & Programs",
-      "subtitle": "There is a place for everyone to belong, serve, and grow in faith within our church community.",
-      "cta": "Learn more →"
-    },
-    "announcementsSection": {
-      "title": "Announcements",
-      "subtitle": "Stay informed about what is happening in our church community",
-      "readMore": "Read more →",
-      "viewAll": "View all announcements →",
-      "noAnnouncement": "No announcement at the moment."
-    },
-    "eventsSection": {
-      "title": "Upcoming Events",
-      "subtitle": "We invite you to join us in worship, fellowship, and community gatherings.",
-      "readMore": "Read more →",
-      "viewAll": "View all events →",
-      "noEvent": "No events at the moment."
-    },
     "donationSection": {
-      "header": "Support Our Mission",
-      "subtitle": "Your generous support helps us continue our mission of spreading faith, serving our community, and reaching those in need.",
       "cta": "Give a Donation",
       "note": "Giving is voluntary and given with love."
     }
@@ -349,7 +328,6 @@
   },
   "navbar": {
     "logo": "Ethiopian Evangelical Church of Cologne Mülheim",
-    "label": "Updates",
     "links": {
       "home": "Home",
       "about": "About Us",
