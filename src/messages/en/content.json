@@ -44,30 +44,13 @@
         }
       ]
     },
-    "ministriesSection": {
-      "title": "Our Ministries & Programs",
-      "subtitle": "There is a place for everyone to belong, serve, and grow in faith within our church community.",
-      "cta": "Learn more →"
-    },
-    "announcementsSection": {
-      "title": "Announcements",
-      "subtitle": "Stay informed about what is happening in our church community",
-      "readMore": "Read more →",
-      "viewAll": "View all announcements →",
-      "noAnnouncement": "No announcement at the moment."
-    },
-    "eventsSection": {
-      "title": "Upcoming Events",
-      "subtitle": "We invite you to join us in worship, fellowship, and community gatherings.",
-      "readMore": "Read more →",
-      "viewAll": "View all events →",
-      "noEvent": "No events at the moment."
-    },
     "donationSection": {
-      "header": "Support Our Mission",
-      "subtitle": "Your generous support helps us continue our mission of spreading faith, serving our community, and reaching those in need.",
       "cta": "Give a Donation",
       "note": "Giving is voluntary and given with love."
+    },
+    "seo": {
+      "title": "Welcome to our Spiritual Home",
+      "description": "Discover a vibrant community of faith at the Ethiopian Evangelical Church of Cologne. Join us for saturday services, Bible study, and fellowship."
     }
   },
   "about": {
@@ -115,6 +98,10 @@
     "quote": {
       "text": "A little one shall become a thousand, and a small one a strong nation. I, the Lord, will hasten it in its time.",
       "source": "Isaiah 60:22"
+    },
+    "seo": {
+      "title": "Our History & Mission",
+      "description": "Established in 1995, we have grown from a small house gathering into a registered Evangelical church in Cologne. Discover our journey of faith and our current ministries."
     }
   },
   "statementOfFaith": {
@@ -201,7 +188,11 @@
         "title": "Concerning the End Times",
         "text": "We believe in the physical resurrection and the rapture of believers. Following the rapture, believers will stand before the Bema Seat of Christ to receive rewards according to their works. We believe Jesus Christ will return to earth with His saints to establish the Millennial Kingdom, followed by the resurrection of all the dead and the final Great White Throne Judgment, where the righteous are separated for eternal life and sinners for eternal punishment. (Matt. 24, Mark 13)"
       }
-    ]
+    ],
+    "seo": {
+      "title": "Statement of Faith & Core Beliefs",
+      "description": "Our theological foundation: We believe in the Holy Scriptures, the Trinity, and salvation through grace. Explore our core biblical doctrines and church ordinances."
+    }
   },
   "youthMinistry": {
     "hero": {
@@ -232,6 +223,10 @@
         "title": "Living Out God’s Goodness",
         "text": "Equipping young people to show the love and goodness of God in word and deed at school, in the workplace, and among their friends, and to conduct themselves in the house of God according to Christian order."
       }
+    },
+    "seo": {
+      "title": "Youth Ministry: A Chosen Generation",
+      "description": "Empowering young people to find their identity in Christ. Join a community focused on being shaped by the Word, Christian fellowship, and living out God's goodness in everyday life."
     }
   },
   "childrenMinistry": {
@@ -293,6 +288,10 @@
     "questions": {
       "title": "Answering Children's Questions",
       "text": "In collaboration with parents, we strive to answer children's spiritual and personal questions, providing guidance for their next steps in life."
+    },
+    "seo": {
+      "title": "Children's Ministry",
+      "description": "A safe, Christ-centered environment where children grow in faith and character. We bridge cultural gaps for children in the diaspora while building a strong biblical foundation."
     }
   },
   "impressum": {
@@ -317,6 +316,10 @@
         "Register Court: District Court of Cologne (Amtsgericht Köln)",
         "Registration Number: VR 19124"
       ]
+    },
+    "seo": {
+      "title": "Legal Notice & Impressum",
+      "description": "Official legal and contact information for the Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. Registered association details and contact person."
     }
   },
   "ministries": {
@@ -338,18 +341,25 @@
       "description": "Based on Proverbs 22:6, we help children develop a personal relationship with Lord Jesus Christ. We provide a safe, holistic environment where the next generation grows in wisdom, stature, and favor with God.",
       "cta": "Explore Children's Ministry"
     },
-    "transitionQuote": "Building a bridge between generations, anchored in the eternal Word of God."
+    "transitionQuote": "Building a bridge between generations, anchored in the eternal Word of God.",
+    "seo": {
+      "title": "Our Ministries & Community Service",
+      "description": "Equipping every generation through our Youth and Children's ministries. Join us for spiritual growth, biblical foundation, and Christian fellowship in Cologne."
+    }
   },
   "gallery": {
     "heroTitle": "Ethiopian Evangelical Church of Cologne Mülheim Photo Gallery",
     "heroSubtitle": "Moments of worship, fellowship, service, and celebration shared by our church family.",
     "noSelectedImage": "No images available for this year yet.",
     "noImagesTitle": "There isn't any image at the moment",
-    "noImagesSubtitle": "We haven't added any photos to the gallery yet. Please check back later!"
+    "noImagesSubtitle": "We haven't added any photos to the gallery yet. Please check back later!",
+    "seo": {
+      "title": "Photo Gallery & Church Life",
+      "description": "Explore moments of worship, fellowship, and celebration at EEC Cologne. See our community in action through our photo collection."
+    }
   },
   "navbar": {
     "logo": "Ethiopian Evangelical Church of Cologne Mülheim",
-    "label": "Updates",
     "links": {
       "home": "Home",
       "about": "About Us",
@@ -416,6 +426,10 @@
     "closing": {
       "quote": "“Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion.”",
       "reference": "— 2 Corinthians 9:7"
+    },
+    "seo": {
+      "title": "Support Our Mission",
+      "description": "Partner with us in spreading the Gospel and serving the community. Securely donate via PayPal to support our Youth Ministry, Outreach, and Church programs."
     }
   },
   "verify": {
@@ -456,5 +470,13 @@
     "title": "Content Not Available",
     "subtitle": "The page you’re trying to view doesn’t have any content. It may have been deleted or moved.",
     "button": "Back to Home"
+  },
+  "common": {
+    "seo": {
+      "title": "Ethiopian Evangelical Church of Cologne Mülheim",
+      "churchShortName": "EEC Cologne",
+      "description": "A spiritual home for the Ethiopian community in Cologne. Join us for worship, community events, and spiritual growth in Mülheim.",
+      "keywords": "Ethiopian Church Cologne, Evangelical Church, Amharic Worship Germany, Christian Community Cologne, EEC Mülheim"
+    }
   }
 }

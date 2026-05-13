@@ -1,12 +1,18 @@
-"use client"
-
-import React from 'react';
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { BookOpen, Heart, Share2, Sun } from 'lucide-react';
 
-const YouthMinistry = () => {
-    const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+    const { lang } = await params;
+    const messages = getContent(lang, 'youthMinistry');
+
+    return {
+        title: messages.seo.title,
+        description: messages.seo.description
+    };
+}
+
+const YouthMinistry = async ({ params }) => {
+    const { lang } = await params;
     const messages = getContent(lang, "youthMinistry");
 
     return (

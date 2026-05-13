@@ -1,11 +1,9 @@
 'use client';
 
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { RefreshCw, AlertTriangle } from "lucide-react";
 
-export const ErrorBlock = ({ onRetry }) => {
-    const { lang } = useLanguage();
+export const ErrorBlock = ({ onRetry, lang }) => {
     const messages = getContent(lang, 'error');
 
     return (

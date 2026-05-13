@@ -5,7 +5,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const DonationForm = ({ content }) => {
-  const [donationAmount, setDonationAmount] = useState(0);
+  const [donationAmount, setDonationAmount] = useState("");
   const [currency, setCurrency] = useState("usd");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -31,10 +31,9 @@ const DonationForm = ({ content }) => {
       ).href;
       window.location.href = approvalUrl;
     } catch (err) {
+      setLoading(false);
       setError("Something went wrong");
       console.error("Error initializing payment: ", err);
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -76,7 +75,7 @@ const DonationForm = ({ content }) => {
             <input
               type="number"
               onChange={(e) => setDonationAmount(Number(e.target.value))}
-              value={donationAmount <= 0 ? "" : donationAmount}
+              value={donationAmount}
               placeholder={content.customPlaceholder}
               className="w-full rounded-xl border border-black/10 pl-8 pr-4 py-4 font-body focus:outline-none focus:ring-2 focus:ring-yellow-400"
             />

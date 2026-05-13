@@ -1,12 +1,19 @@
-"use client";
-
 import React from 'react';
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { BookOpen, Handshake, ShieldCheck, Sun, Users, Baby, MessageCircle } from "lucide-react";
 
-const ChildrensMinistry = () => {
-    const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+    const { lang } = await params;
+    const messages = getContent(lang, 'childrenMinistry');
+
+    return {
+        title: messages.seo.title,
+        description: messages.seo.description
+    };
+}
+
+const ChildrensMinistry = async ({ params }) => {
+    const { lang } = await params;
     const messages = getContent(lang, "childrenMinistry");
 
     return (

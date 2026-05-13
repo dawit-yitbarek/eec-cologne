@@ -1,11 +1,7 @@
-"use client";
-
 import Link from "next/link";
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 
-const Footer = () => {
-  const { lang } = useLanguage();
+const Footer = ({ lang }) => {
   const messages = getContent(lang, "footer");
 
   return (

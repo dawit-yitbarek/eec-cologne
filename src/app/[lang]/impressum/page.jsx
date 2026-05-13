@@ -1,10 +1,17 @@
-"use client";
-
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 
-export default function ImpressumPage() {
-    const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+    const { lang } = await params;
+    const messages = getContent(lang, 'impressum');
+
+    return {
+        title: messages.seo.title,
+        description: messages.seo.description
+    };
+}
+
+export default async function ImpressumPage({ params }) {
+    const { lang } = await params;
     const messages = getContent(lang, "impressum");
 
     return (

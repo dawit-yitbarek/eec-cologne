@@ -1,13 +1,20 @@
-"use client";
-
 import React from 'react';
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import Link from 'next/link';
 import { ArrowRight, Sparkles, Baby, Users } from 'lucide-react';
 
-const MinistriesPage = () => {
-  const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+  const { lang } = await params;
+  const messages = getContent(lang, 'ministries');
+
+  return {
+    title: messages.seo.title,
+    description: messages.seo.description
+  };
+}
+
+const MinistriesPage = async ({ params }) => {
+  const { lang } = await params;
   const messages = getContent(lang, "ministries");
 
   return (

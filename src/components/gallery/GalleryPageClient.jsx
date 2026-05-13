@@ -3,20 +3,18 @@
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { Calendar } from 'lucide-react';
 import { ImageCardSkeleton } from '@/components/LoadingSkeletons';
 import { ErrorBlock } from '@/components/ErrorBlock';
 
-const GalleryPage = () => {
+export const GalleryPageClient = ({ lang }) => {
     const [images, setImages] = useState([]);
     const [years, setYears] = useState([]);
     const [activeImage, setActiveImage] = useState(null);
     const [activeYear, setActiveYear] = useState("");
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
-    const { lang } = useLanguage();
     const messages = getContent(lang, "gallery");
 
     const fetchGallery = async () => {
@@ -98,7 +96,7 @@ const GalleryPage = () => {
             }
 
             {/* Error State */}
-            {!loading && error && <ErrorBlock onRetry={fetchGallery} />}
+            {!loading && error && <ErrorBlock onRetry={fetchGallery} lang={lang} />}
 
             {/* Empty State Card */}
             {!loading && !error && images.length === 0 && (
@@ -150,30 +148,6 @@ const GalleryPage = () => {
                             </div>
 
 
-                            {/* <div className="columns-1 sm:columns-2 lg:columns-3 gap-6">
-                                {filteredImages.length > 0 ? filteredImages.map((image) => (
-                                    <button
-                                        key={image?.id}
-                                        className="mb-6 block w-full break-inside-avoid group relative bg-white overflow-hidden rounded-2xl shadow-sm hover:shadow-lg transition"
-                                        onClick={() => setActiveImage(image)}
-                                    >
-                                        <div className="relative aspect-[4/3] w-full">
-                                            <Image
-                                                src={image?.url}
-                                                alt={`Gallery image ${image?.id}`}
-                                                fill
-                                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                            />
-                                        </div>
-                                    </button>
-                                )) : (
-                                    <div className="col-span-full py-20 text-center">
-                                        <p className="text-stone-400 italic">{messages.noSelectedImage}</p>
-                                    </div>
-                                )}
-                            </div> */}
-
                             <div className="columns-1 sm:columns-2 lg:columns-3 gap-6">
                                 {filteredImages.length > 0 ? filteredImages.map((image) => (
                                     <button
@@ -181,14 +155,11 @@ const GalleryPage = () => {
                                         className="mb-6 block w-full break-inside-avoid group relative bg-white overflow-hidden rounded-2xl shadow-sm hover:shadow-lg transition"
                                         onClick={() => setActiveImage(image)}
                                     >
-                                        {/* 1. Removed aspect ratio wrapper */}
                                         <Image
                                             src={image?.url}
                                             alt={`Gallery image ${image?.id}`}
-                                            // 2. Use the image's intrinsic dimensions
                                             width={image?.width || 800}
                                             height={image?.height || 600}
-                                            // 3. Ensure it spans the column width
                                             className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                         />
@@ -231,5 +202,3 @@ const GalleryPage = () => {
         </main >
     );
 };
-
-export default GalleryPage;

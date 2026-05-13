@@ -4,7 +4,6 @@
       "title": "Herzlich willkommen in unserem geistlichen Zuhause in Köln",
       "subtitle": "Ein Ort der Anbetung, der Gemeinschaft und des lebendigen Wortes Gottes.",
       "quote": " \"Der Kleinste wird zu Tausend werden und der Geringste zu einem mächtigen Volk. Ich, der HERR, werde es zu seiner Zeit eilends ausrichten.\" (Jesaja 60,22)",
-      "test": "",
       "buttons": {
         "primary": "Sehen Sie sich die neueste Predigt an",
         "secondary": "Besuchen Sie uns diesen Sonntag!"
@@ -45,30 +44,13 @@
         }
       ]
     },
-    "ministriesSection": {
-      "title": "Unsere Dienste und Programme",
-      "subtitle": "In unserer Kirchengemeinde gibt es für jeden einen Platz, an dem er dazugehören, dienen und im Glauben wachsen kann.",
-      "cta": "Mehr erfahren →"
-    },
-    "announcementsSection": {
-      "title": "Ankündigungen",
-      "subtitle": "Bleiben Sie über die Geschehnisse in unserer Kirchengemeinde informiert.",
-      "readMore": "Mehr lesen →",
-      "viewAll": "Alle Ankündigungen ansehen →",
-      "noAnnouncement": "Derzeit gibt es keine Ankündigung."
-    },
-    "eventsSection": {
-      "title": "Kommende Veranstaltungen",
-      "subtitle": "Wir laden Sie herzlich ein, an unseren Gottesdiensten, Gemeinschaftstreffen und Zusammenkünften teilzunehmen.",
-      "readMore": "Mehr lesen →",
-      "viewAll": "Alle Veranstaltungen anzeigen →",
-      "noEvent": "Derzeit finden keine Veranstaltungen statt."
-    },
     "donationSection": {
-      "header": "Unterstützen Sie unsere Mission",
-      "subtitle": "Ihre großzügige Unterstützung hilft uns, unsere Mission fortzusetzen, den Glauben zu verbreiten, unserer Gemeinschaft zu dienen und Bedürftige zu erreichen.",
       "cta": "Spenden Sie jetzt!",
       "note": "Geben ist freiwillig und geschieht aus Liebe."
+    },
+    "seo": {
+      "title": "Willkommen in unserem geistlichen Zuhause",
+      "description": "Entdecken Sie eine lebendige Glaubensgemeinschaft in der äthiopisch-evangelischen Kirche in Köln. Besuchen Sie uns samstags zum Gottesdienst und zur Gemeinschaft."
     }
   },
   "about": {
@@ -116,6 +98,10 @@
     "quote": {
       "text": "Aus dem Kleinsten sollen tausend werden und aus dem Geringsten ein mächtiges Volk. Ich, der Herr, werde es zu seiner Zeit eilends ausrichten.",
       "source": "Jesaja 60,22"
+    },
+    "seo": {
+      "title": "Unsere Geschichte & Mission",
+      "description": "Seit 1995 in Köln verwurzelt. Erfahren Sie mehr über die Entwicklung der Äthiopischen Evangelischen Gemeinde vom Migrantenkreis zur eingetragenen Gemeinde (e.V.)."
     }
   },
   "statementOfFaith": {
@@ -202,7 +188,11 @@
         "title": "Über die Endzeit",
         "text": "Wir glauben an die leibliche Auferstehung und die Entrückung der Gläubigen. Danach folgt das Preisgericht Christi (Bema Seat), wo Gläubige Lohn für ihre Werke empfangen. Wir glauben an die Wiederkunft Christi zur Errichtung des tausendjährigen Reiches (Millennial Kingdom), die allgemeine Toteauferstehung, das Jüngste Gericht vor dem Großen Weißen Thron und die endgültige Trennung zwischen Gerechten (ewiges Leben) und Sündern (ewige Strafe). (Matt. 24)"
       }
-    ]
+    ],
+    "seo": {
+      "title": "Glaubensbekenntnis & Lehre",
+      "description": "Unsere theologischen Grundlagen: Wir glauben an die Heilige Schrift, die Dreifaltigkeit und die Errettung durch Gnade. Unsere biblischen Lehren und kirchlichen Ordnungen."
+    }
   },
   "youthMinistry": {
     "hero": {
@@ -233,6 +223,10 @@
         "title": "Gelebte Güte Gottes",
         "text": "Die Jugendlichen befähigen, in ihrer Schule, an ihrem Arbeitsplatz und unter ihren Freunden die Liebe und Güte Gottes in Tat und Wort zu zeigen sowie sich im Haus Gottes in angemessener christlicher Ordnung zu bewegen."
       }
+    },
+    "seo": {
+      "title": "Jugendarbeit: Eine auserwählte Generation",
+      "description": "Junge Menschen in ihrer christlichen Identität stärken. Eine Gemeinschaft, die durch das Wort Gottes geprägt ist und Gottes Güte im Alltag bezeugt."
     }
   },
   "childrenMinistry": {
@@ -294,6 +288,10 @@
     "questions": {
       "title": "Beantwortung von Kinderfragen",
       "text": "In Zusammenarbeit mit den Eltern bemühen wir uns, sowohl geistliche als auch persönliche Fragen der Kinder zu beantworten, um ihnen Orientierung für ihren weiteren Lebensweg zu geben."
+    },
+    "seo": {
+      "title": "Kinderdienst",
+      "description": "Ein sicheres, christuszentriertes Umfeld für Kinder. Wir unterstützen Kinder im Ausland dabei, ihren Glauben zu vertiefen und ihre kulturelle Identität in Deutschland zu bewahren."
     }
   },
   "impressum": {
@@ -318,6 +316,10 @@
         "Registergericht: Amtsgericht Köln",
         "Registernummer: VR 19124"
       ]
+    },
+    "seo": {
+      "title": "Impressum & Rechtliche Hinweise",
+      "description": "Gesetzliche Anbieterkennung der Äthiopischen Evangelischen Gemeinde Köln Mühlheim e.V. Informationen nach § 5 DDG und Vereinsregister-Details."
     }
   },
   "ministries": {
@@ -339,18 +341,25 @@
       "description": "Basierend auf Sprüche 22,6 helfen wir Kindern, eine persönliche Beziehung zum Herrn Jesus Christus aufzubauen. Wir bieten ein sicheres, ganzheitliches Umfeld, in dem die nächste Generation an Weisheit, Alter und Gnade bei Gott wächst.",
       "cta": "Kinderdienst entdecken"
     },
-    "transitionQuote": "Wir bauen eine Brücke zwischen den Generationen, verankert im ewigen Wort Gottes."
+    "transitionQuote": "Wir bauen eine Brücke zwischen den Generationen, verankert im ewigen Wort Gottes.",
+    "seo": {
+      "title": "Unsere Dienste & Gruppen",
+      "description": "Geistliches Wachstum für jede Generation. Entdecken Sie unsere Kinder- und Jugendarbeit sowie unsere christliche Gemeinschaft in Köln."
+    }
   },
   "gallery": {
     "heroTitle": "Äthiopische Evangelische Gemeinde Köln Mülheim Fotogalerie",
     "heroSubtitle": "Momente des Gottesdienstes, der Gemeinschaft, des Dienstes und der Feier, geteilt von unserer Kirchengemeinde.",
     "noSelectedImage": "Für dieses Jahr sind noch keine Bilder verfügbar.",
     "noImagesTitle": "Im Moment ist kein Bild verfügbar.",
-    "noImagesSubtitle": "Wir haben der Galerie noch keine Fotos hinzugefügt. Schauen Sie später noch einmal vorbei!"
+    "noImagesSubtitle": "Wir haben der Galerie noch keine Fotos hinzugefügt. Schauen Sie später noch einmal vorbei!",
+    "seo": {
+      "title": "Fotogalerie & Gemeindeleben",
+      "description": "Entdecken Sie Momente des Gottesdienstes, der Gemeinschaft und der Feierlichkeiten der EEG Köln. Erleben Sie unsere Gemeinde in Bildern."
+    }
   },
   "navbar": {
     "logo": "Äthiopische Evangelische Gemeinde Köln Mülheim",
-    "label": "Aktualisierungen",
     "links": {
       "home": "Startseite",
       "about": "Über uns",
@@ -417,6 +426,10 @@
     "closing": {
       "quote": "„Jeder gebe, wie er es sich im Herzen vorgenommen hat, nicht widerwillig oder unter Zwang.“",
       "reference": "— 2. Korinther 9:7"
+    },
+    "seo": {
+      "title": "Unterstützen Sie unsere Arbeit",
+      "description": "Helfen Sie uns, den Glauben zu verbreiten und die Gemeinschaft zu stärken. Spenden Sie sicher via PayPal für unsere Jugendarbeit, Mission und Gemeindeprojekte."
     }
   },
   "verify": {
@@ -457,5 +470,13 @@
     "title": "Inhalt nicht verfügbar",
     "subtitle": "Die Seite, die Sie versuchen anzuzeigen, hat keinen Inhalt. Sie wurde möglicherweise gelöscht oder verschoben.",
     "button": "Zurück zur Startseite"
+  },
+  "common": {
+    "seo": {
+      "title": "Äthiopische Evangelische Gemeinde Köln Mülheim",
+      "churchShortName": "EEG Köln",
+      "description": "Ein geistliches Zuhause für die äthiopische Gemeinschaft in Köln. Erleben Sie Gottesdienst, Gemeinschaft und spirituelles Wachstum in Mülheim.",
+      "keywords": "Äthiopische Kirche Köln, Evangelische Gemeinde, Gottesdienst Amharisch, Christliche Gemeinschaft Köln"
+    }
   }
 }

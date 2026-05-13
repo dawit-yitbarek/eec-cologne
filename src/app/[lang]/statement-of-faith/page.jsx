@@ -1,11 +1,18 @@
-"use client";
-
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import React from "react";
 
-const StatementOfFaith = () => {
-  const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+  const { lang } = await params;
+  const messages = getContent(lang, 'statementOfFaith');
+
+  return {
+    title: messages.seo.title,
+    description: messages.seo.description
+  };
+}
+
+const StatementOfFaith = async ({ params }) => {
+  const { lang } = await params;
   const messages = getContent(lang, "statementOfFaith");
 
   return (

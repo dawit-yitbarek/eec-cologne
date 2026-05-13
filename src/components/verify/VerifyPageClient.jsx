@@ -1,7 +1,6 @@
 'use client'
 
 import { Suspense } from "react";
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -10,21 +9,20 @@ import { CheckCircle, Loader, RefreshCcw, XCircle } from "lucide-react";
 import Link from "next/link";
 
 
-export default function VerifyPageWrapper() {
+export default function VerifyPageWrapper({ lang }) {
     return (
         <Suspense fallback={
             <section className="min-h-screen flex items-center justify-center bg-[#F1EFEC]">
                 <Loader size={48} className="animate-spin text-yellow-500" />
             </section>
         }>
-            <VerifyPage />
+            <VerifyPage lang={lang} />
         </Suspense>
     );
 }
 
 
-function VerifyPage() {
-    const { lang } = useLanguage();
+function VerifyPage({ lang }) {
     const messages = getContent(lang, 'verify');
     const searchParams = useSearchParams();
     const orderID = searchParams.get("token");

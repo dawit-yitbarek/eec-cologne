@@ -1,11 +1,18 @@
-"use client";
-
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import DonationForm from "@/components/donate/DonationForm";
 
-export default function Donate() {
-    const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+    const { lang } = await params;
+    const messages = getContent(lang, 'donate');
+
+    return {
+        title: messages.seo.title,
+        description: messages.seo.description,
+    };
+}
+
+export default async function Donate({ params }) {
+    const { lang } = await params;
     const messages = getContent(lang, 'donate');
 
     return (

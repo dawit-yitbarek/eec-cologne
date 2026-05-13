@@ -1,16 +1,13 @@
 "use client";
 
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-const Navbar = () => {
+const Navbar = ({ lang }) => {
   const [open, setOpen] = useState(false);
-  const { lang } = useLanguage();
   const messages = getContent(lang, "navbar");
 
   return (
@@ -51,7 +48,7 @@ const Navbar = () => {
               </li>
             </ul>
 
-            <LanguageSwitcher sidebar={false} />
+            <LanguageSwitcher sidebar={false} lang={lang} />
           </div>
 
           {/* Mobile Menu Button */}
@@ -110,7 +107,7 @@ const Navbar = () => {
             </Link>
           </nav>
 
-          <LanguageSwitcher sidebar={true} />
+          <LanguageSwitcher sidebar={true} lang={lang} />
         </div>
       </aside>
     </>

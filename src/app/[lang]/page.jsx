@@ -1,13 +1,21 @@
-"use client";
-
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import Hero from "@/components/homePage/Hero";
 import DonationSection from "@/components/homePage/DonationSection";
 import Link from "next/link";
 
-export default function HomePage() {
-  const { lang } = useLanguage();
+export async function generateMetadata({ params }) {
+  const { lang } = await params;
+  const homeMessages = getContent(lang, 'home');
+  const commonMessages = getContent(lang, 'common');
+
+  return {
+    title: `${homeMessages.seo.title} | ${commonMessages.seo.churchShortName}`,
+    description: homeMessages.seo.description,
+  };
+}
+
+export default async function HomePage({ params }) {
+  const { lang } = await params;
   const messages = getContent(lang, "home");
 
   return (

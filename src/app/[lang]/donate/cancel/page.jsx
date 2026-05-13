@@ -1,12 +1,17 @@
-'use client';
-
-import { useLanguage } from "@/context/LanguageContext";
 import { getContent } from "@/lib/getMessages";
 import { XCircle } from "lucide-react";
 import Link from "next/link";
 
-export default function CancelPage() {
-    const { lang } = useLanguage();
+export const metadata = {
+    title: "Donation Cancelled",
+    robots: {
+        index: false, // Prevent the page from appearing in Google
+        follow: false,
+    },
+};
+
+export default async function CancelPage({ params }) {
+    const { lang } = await params;
     const messages = getContent(lang, 'cancel');
 
     return (
