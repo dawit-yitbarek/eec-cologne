@@ -9,6 +9,24 @@
         "secondary": "Join Us This Sunday"
       }
     },
+    "services": {
+      "title": "Our Church Regular Services",
+      "communionNote": "Every first Saturday of the month, we regularly partake in the Lord's Supper.",
+      "list": [
+        { "day": "Saturday", "time": "14:00 - 15:00", "name": "Prayer Time" },
+        {
+          "day": "Saturday",
+          "time": "15:00 - 17:00",
+          "name": "Main Worship Service"
+        },
+        { "day": "Tuesday", "time": "17:00 - 19:00", "name": "Prayer Service" },
+        {
+          "day": "Wednesday",
+          "time": "20:00 - 21:30",
+          "name": "Bible Study via Zoom"
+        }
+      ]
+    },
     "journey": {
       "title": "Our Journey of Faith",
       "text": "What began as a small prayer gathering in 1995 has blossomed into a vibrant, God-led community. Explore our history and see how the Lord transformed a humble beginning into a lasting spiritual sanctuary in Cologne.",
@@ -55,9 +73,9 @@
   },
   "about": {
     "hero": {
-      "text1": "Welcome to Our",
-      "text2": "Family of",
-      "coloredText": "Faith"
+      "text1": "About us &",
+      "text2": "",
+      "coloredText": "Our History"
     },
     "humbleBeginning": {
       "title": "A Humble \n Beginning",
@@ -94,6 +112,10 @@
           "text": "Programs designed to help believers explore the Word of God and be deeply rooted in divine truth."
         }
       }
+    },
+    "future": {
+      "title": "",
+      "description": ""
     },
     "quote": {
       "text": "A little one shall become a thousand, and a small one a strong nation. I, the Lord, will hasten it in its time.",
@@ -390,8 +412,8 @@
   },
   "donate": {
     "intro": {
-      "title": "Support Our Mission",
-      "subtitle": "Your generosity helps us spread faith, serve our community, and support those in need."
+      "title": "Support Our Ministry",
+      "subtitle": "Thank you for visiting our donation page. Every contribution is used responsibly to support the mission of our church."
     },
     "form": {
       "title": "Choose Your Donation Amount",
@@ -400,32 +422,26 @@
       "secureNote": "Secure donation powered by PayPal"
     },
     "impact": {
-      "title": "What Your Giving Supports",
+      "title": "How Your Gift Is Used ?",
+      "description": "Your financial support directly funds several key areas of our ministry.",
       "items": [
         {
-          "title": "Community Outreach",
-          "description": "Extending compassion through service projects, local support initiatives, and care for those in need."
+          "description": "First, it helps with our monthly church rent and operational costs, ensuring we have a consistent, welcoming space to gather for worship and prayer."
         },
         {
-          "title": "Youth Ministry",
-          "description": "Guiding young people in faith, fellowship, and leadership to grow spiritually and personally."
+          "description": "Second, your gifts fund our children and youth ministries."
         },
         {
-          "title": "Church Programs",
-          "description": "Providing worship services, Bible studies, and activities that strengthen our church family."
-        },
-        {
-          "title": "Missions & Evangelism",
-          "description": "Sharing the Gospel locally and globally, supporting missionaries, and spreading hope in Christ."
+          "description": "Finally, a portion of our funds goes toward direct support for families and individuals within our community who are facing unexpected financial hardships."
         }
       ]
     },
     "trust": {
-      "message": "Giving is voluntary and offered with love. Every contribution is used responsibly to support the mission of our church."
+      "message": "Giving is voluntary and offered with love."
     },
     "closing": {
-      "quote": "“Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion.”",
-      "reference": "— 2 Corinthians 9:7"
+      "quote": "“Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.”",
+      "reference": "Second Corinthians chapter nine verse seven"
     },
     "seo": {
       "title": "Support Our Mission",

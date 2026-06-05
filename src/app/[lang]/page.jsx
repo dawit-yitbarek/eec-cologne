@@ -20,8 +20,10 @@ export default async function HomePage({ params }) {
 
   return (
     <>
+      {/* Hero Section */}
       <Hero content={messages.hero} />
 
+      {/* Journey Section */}
       <section className="bg-[#f9f7f2] py-20">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -71,6 +73,45 @@ export default async function HomePage({ params }) {
         </div>
       </section>
 
+      {/* Services Schedule Section */}
+      <section className="bg-white py-20 border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-heading mb-4">
+              {messages.services.title}
+            </h2>
+            <div className="w-16 h-1 bg-yellow-500 mx-auto rounded"></div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            {messages.services.list.map((service, idx) => (
+              <div
+                key={idx}
+                className="bg-[#f9f7f2] p-6 rounded-xl border border-yellow-500/10 hover:border-yellow-500/40 transition dynamic-card"
+              >
+                <div className="text-sm font-bold text-yellow-600 uppercase tracking-wider mb-2">
+                  {service.day}
+                </div>
+                <div className="text-xl font-heading mb-1 text-gray-900">
+                  {service.name}
+                </div>
+                <div className="text-sm text-gray-600 font-mono">
+                  {service.time}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Special Communion Alert Box */}
+          <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 max-w-3xl mx-auto shadow-sm">
+            <p className="text-gray-800 text-center font-medium text-lg md:text-base leading-relaxed">
+              {messages.services.communionNote}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Foundation Section */}
       <section className="bg-white py-20">
         <div className="max-w-5xl mx-auto text-center px-6">
           <h2 className="text-3xl font-heading mb-6">
@@ -90,6 +131,7 @@ export default async function HomePage({ params }) {
         </div>
       </section>
 
+      {/* Ministries Section */}
       <section className="bg-[#f9f7f2] py-20">
         {" "}
         <div className="max-w-6xl mx-auto px-6">
@@ -124,6 +166,7 @@ export default async function HomePage({ params }) {
         </div>{" "}
       </section>
 
+      {/* Donation Section */}
       <DonationSection content={messages.donationSection} />
     </>
   );

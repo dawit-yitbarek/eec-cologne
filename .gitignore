@@ -33,4 +33,3 @@ next-env.d.ts
 
 # analysis file
 analysis.js
-node_modules

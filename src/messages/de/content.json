@@ -9,6 +9,28 @@
         "secondary": "Besuchen Sie uns diesen Sonntag!"
       }
     },
+    "services": {
+      "title": "Regelmäßige Programme unserer Kirche",
+      "communionNote": "Am ersten Samstag des Monats feiern wir regelmäßig das Abendmahl des Herrn.",
+      "list": [
+        { "day": "Samstag", "time": "14:00 - 15:00 Uhr", "name": "Gebetszeit" },
+        {
+          "day": "Samstag",
+          "time": "15:00 - 17:00 Uhr",
+          "name": "Gottesdienst"
+        },
+        {
+          "day": "Dienstag",
+          "time": "17:00 - 19:00 Uhr",
+          "name": "Gebetsprogramm"
+        },
+        {
+          "day": "Mittwoch",
+          "time": "20:00 - 21:30 Uhr",
+          "name": "Bibelkreis über Zoom"
+        }
+      ]
+    },
     "journey": {
       "title": "Unser Weg des Glaubens ",
       "text": "Was 1995 als kleiner Gebetskreis begann, ist durch Gottes Gnade zu einer lebendigen Gemeinschaft herangewachsen. Erfahren Sie mehr über unsere Geschichte und wie der Herr aus kleinen Anfängen eine feste geistliche Heimat in Köln geschaffen hat. ",
@@ -55,9 +77,9 @@
   },
   "about": {
     "hero": {
-      "text1": "Willkommen in unserer",
-      "text2": "Gemeinschaft des",
-      "coloredText": "Glaubens"
+      "text1": "Über uns &",
+      "text2": "",
+      "coloredText": "Unsere Geschichte"
     },
     "humbleBeginning": {
       "title": "Ein bescheidener \n Anfang",
@@ -94,6 +116,10 @@
           "text": "Programme, die den Gläubigen helfen, das Wort Gottes zu erforschen und tief in der göttlichen Wahrheit verwurzelt zu sein."
         }
       }
+    },
+    "future": {
+      "title": "",
+      "description": ""
     },
     "quote": {
       "text": "Aus dem Kleinsten sollen tausend werden und aus dem Geringsten ein mächtiges Volk. Ich, der Herr, werde es zu seiner Zeit eilends ausrichten.",
@@ -390,8 +416,8 @@
   },
   "donate": {
     "intro": {
-      "title": "Unterstützen Sie unsere Mission",
-      "subtitle": "Ihre Großzügigkeit hilft uns, den Glauben zu verbreiten, unserer Gemeinschaft zu dienen und Bedürftige zu unterstützen."
+      "title": "Unterstützen Sie unseren Dienst",
+      "subtitle": "Vielen Dank für den Besuch unserer Spendenseite. Jeder Beitrag wird verantwortungsvoll verwendet, um die Mission unserer Kirche zu unterstützen."
     },
     "form": {
       "title": "Wählen Sie Ihren Spendenbetrag",
@@ -400,32 +426,26 @@
       "secureNote": "Sichere Spende über PayPal"
     },
     "impact": {
-      "title": "Was Ihre Spende unterstützt",
+      "title": "Wofür wird Ihre Spende verwendet?",
+      "description": "",
       "items": [
         {
-          "title": "Gemeindehilfe",
-          "description": "Mitgefühl zeigen durch Hilfsprojekte, lokale Unterstützungsinitiativen und Fürsorge für Bedürftige."
+          "description": "Erstens für die monatliche Kirchenmiete und die Betriebskosten, um uns einen festen Ort für Gottesdienste und Gebete zu sichern."
         },
         {
-          "title": "Jugenddienst",
-          "description": "Junge Menschen im Glauben, in der Gemeinschaft und in der Führung begleiten, damit sie geistlich und persönlich wachsen."
+          "description": "Zweitens für die laufende Arbeit mit Kindern und Jugendlichen."
         },
         {
-          "title": "Kirchenprogramme",
-          "description": "Gottesdienste, Bibelkreise und Aktivitäten anbieten, die unsere Kirchengemeinde stärken."
-        },
-        {
-          "title": "Missionen & Evangelisation",
-          "description": "Das Evangelium lokal und weltweit verkünden, Missionare unterstützen und Hoffnung in Christus verbreiten."
+          "description": "Schließlich für die direkte Unterstützung von Familien und Einzelpersonen in unserer Gemeinschaft, die sich in einer unerwarteten finanziellen Notlage befinden."
         }
       ]
     },
     "trust": {
-      "message": "Spenden sind freiwillig und werden mit Liebe gegeben. Jeder Beitrag wird verantwortungsvoll verwendet, um die Mission unserer Kirche zu unterstützen."
+      "message": "Geben ist freiwillig und geschieht aus Liebe."
     },
     "closing": {
-      "quote": "„Jeder gebe, wie er es sich im Herzen vorgenommen hat, nicht widerwillig oder unter Zwang.“",
-      "reference": "— 2. Korinther 9:7"
+      "quote": "„Jeder gebe, wie er es sich im Herzen vorgenommen hat: nicht mit Unwillen oder aus Zwang; denn einen fröhlichen Geber hat Gott lieb.“",
+      "reference": "Zweiter Korintherbrief Kapitel neun Vers sieben"
     },
     "seo": {
       "title": "Unterstützen Sie unsere Arbeit",

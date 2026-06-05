@@ -19,7 +19,7 @@ const AboutUsPage = async ({ params }) => {
     return (
         <main className="bg-[#FCFAF7] text-slate-900 font-body">
             {/* Hero Section */}
-            <section className="relative h-[65vh] flex items-center justify-center bg-black overflow-hidden group">
+            <section className="relative h-[45vh] md:h-[65vh] flex items-center justify-center bg-black overflow-hidden group">
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-gradient-to-br from-black via-[#1a1a1a] to-black opacity-100"></div>
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(250,204,21,0.08),transparent_60%)]"></div>
@@ -36,7 +36,7 @@ const AboutUsPage = async ({ params }) => {
                         <span className="font-light italic text-gray-300">
                             {messages.hero.text1}
                         </span>{" "}
-                        <br />
+                        {/* <br /> */}
                         {messages.hero.text2}{" "}
                         <span className="font-bold text-yellow-500">
                             {messages.hero.coloredText}
@@ -70,9 +70,9 @@ const AboutUsPage = async ({ params }) => {
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="bg-slate-900 rounded-[3rem] p-8 md:p-16 text-white">
                         <div>
-                            <span className="text-yellow-500 uppercase tracking-widest text-sm font-bold">
+                            {/* <span className="text-yellow-500 uppercase tracking-widest text-sm font-bold">
                                 {messages.evolution.title}
-                            </span>
+                            </span> */}
                             <h2 className="text-4xl font-heading mt-4 mb-6">
                                 {messages.evolution.subtitle}
                             </h2>
@@ -113,7 +113,7 @@ const AboutUsPage = async ({ params }) => {
             </section>
 
             {/* Ministries Section */}
-            <section className="py-24 bg-[#f2efe9]">
+            <section className={`${lang === "am" ? "py-16" : "py-24"} bg-[#f2efe9]`}>
                 <div className="max-w-6xl mx-auto px-6">
                     <h2 className="text-4xl font-heading text-center mb-4">
                         {messages.ministries.title}
@@ -122,7 +122,7 @@ const AboutUsPage = async ({ params }) => {
                         {messages.ministries.description}
                     </p>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    {lang !== "am" && <div className="grid md:grid-cols-3 gap-8">
                         {/* Worship */}
                         <div className="bg-white p-8 rounded-2xl shadow-sm hover:-translate-y-2 transition-transform">
                             <Church className="text-yellow-600 mb-4" />
@@ -153,7 +153,16 @@ const AboutUsPage = async ({ params }) => {
                                 {messages.ministries.list.bibleStudy.text}
                             </p>
                         </div>
-                    </div>
+                    </div>}
+
+                    {lang === "am" && <>
+                        <h2 className="text-4xl font-heading text-center mb-4">
+                            {messages.future.title}
+                        </h2>
+                        <p className="text-slate-600 text-center max-w-2xl mx-auto text-lg leading-relaxed">
+                            {messages.future.description}
+                        </p>
+                    </>}
                 </div>
             </section>
 
