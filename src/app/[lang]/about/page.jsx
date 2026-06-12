@@ -36,8 +36,6 @@ const AboutUsPage = async ({ params }) => {
                         <span className="font-light italic text-gray-300">
                             {messages.hero.text1}
                         </span>{" "}
-                        {/* <br /> */}
-                        {messages.hero.text2}{" "}
                         <span className="font-bold text-yellow-500">
                             {messages.hero.coloredText}
                         </span>
@@ -58,7 +56,7 @@ const AboutUsPage = async ({ params }) => {
                         </h3>
                     </div>
                     <div className="md:col-span-8">
-                        <p className="text-xl leading-relaxed text-slate-700 first-letter:text-5xl first-letter:font-heading first-letter:mr-3 first-letter:float-left">
+                        <p className="text-xl leading-relaxed whitespace-pre-line text-slate-700 first-letter:text-5xl first-letter:font-heading first-letter:mr-3 first-letter:float-left">
                             {messages.humbleBeginning.text}
                         </p>
                     </div>

@@ -21,7 +21,7 @@ export default async function HomePage({ params }) {
   return (
     <>
       {/* Hero Section */}
-      <Hero content={messages.hero} />
+      <Hero content={messages.hero} lang={lang} />
 
       {/* Journey Section */}
       <section className="bg-[#f9f7f2] py-20">

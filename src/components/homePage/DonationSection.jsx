@@ -11,11 +11,6 @@ const DonationSection = ({ content }) => {
                 >
                     {content.cta}
                 </Link>
-
-                <p className="mt-6 text-sm text-gray-500">
-                    {content.note}
-                </p>
-
             </div>
         </section>
     );

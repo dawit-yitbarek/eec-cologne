@@ -1,8 +1,7 @@
 {
   "home": {
     "hero": {
-      "title": "Herzlich willkommen in unserem geistlichen Zuhause in Köln",
-      "subtitle": "Ein Ort der Anbetung, der Gemeinschaft und des lebendigen Wortes Gottes.",
+      "title": "Herzlich willkommen in unserem geistlichen Zuhause in Köln: Ein Ort der Anbetung, der Gemeinschaft und des lebendigen Wortes Gottes.",
       "quote": " \"Der Kleinste wird zu Tausend werden und der Geringste zu einem mächtigen Volk. Ich, der HERR, werde es zu seiner Zeit eilends ausrichten.\" (Jesaja 60,22)",
       "buttons": {
         "primary": "Sehen Sie sich die neueste Predigt an",
@@ -10,7 +9,7 @@
       }
     },
     "services": {
-      "title": "Regelmäßige Programme unserer Kirche",
+      "title": "Regelmäßige Programme unserer Gemeinde",
       "communionNote": "Am ersten Samstag des Monats feiern wir regelmäßig das Abendmahl des Herrn.",
       "list": [
         { "day": "Samstag", "time": "14:00 - 15:00 Uhr", "name": "Gebetszeit" },
@@ -67,7 +66,7 @@
       ]
     },
     "donationSection": {
-      "cta": "Spenden Sie jetzt!",
+      "cta": "Unterstützen Sie unseren Dienst",
       "note": "Geben ist freiwillig und geschieht aus Liebe."
     },
     "seo": {
@@ -88,7 +87,7 @@
     "evolution": {
       "title": "Die Evolution",
       "subtitle": "Wandel von einer Migrantengemeinde zu einer beständigen Gemeinschaft",
-      "text": "In den Anfangsjahren unserer Geschichte diente unsere Gemeinde hauptsächlich als geistliche Zufluchtsstätte für Studenten und Migranten (Migrant Church), die zum Studium oder für einen begrenzten Zeitraum nach Deutschland gekommen waren. Viele Mitglieder kehrten nach Abschluss ihres Studiums in ihre Heimat zurück, während die Gemeinde beharrlich weiter das Wort Gottes säte. \n \n Durch Gottes Gnade hat sich diese Situation im Laufe der Zeit gewandelt. Heute hat sich unsere Gemeinde zu einer festen und tief verwurzelten Gemeinschaft entwickelt, deren Mitglieder dauerhaft hier ansässig sind. Nach 21 Jahren treuer Gemeinschaft führte diese Stabilität am 24. November 2016 zur offiziellen Eintragung als Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. beim Amtsgericht Köln unter der Registernummer VR 19124. Dieser Wandel hat der Gemeinde Stabilität verliehen, unsere Dienste erweitert und es uns ermöglicht, ein starkes Fundament für die kommende Generation zu legen.",
+      "text": "In den Anfangsjahren unserer Geschichte diente unsere Gemeinde hauptsächlich als geistliche Zufluchtsstätte für Studenten und Migranten die zum Studium oder für einen begrenzten Zeitraum nach Deutschland gekommen waren. Viele Mitglieder kehrten nach Abschluss ihres Studiums in ihre Heimat zurück, während die Gemeinde beharrlich weiter das Wort Gottes säte. \n \n Durch Gottes Gnade hat sich diese Situation im Laufe der Zeit gewandelt. Heute hat sich unsere Gemeinde zu einer festen und tief verwurzelten Gemeinschaft entwickelt, deren Mitglieder dauerhaft hier ansässig sind. Nach 21 Jahren treuer Gemeinschaft führte diese Stabilität am 24. November 2016 zur offiziellen Eintragung als Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. beim Amtsgericht Köln unter der Registernummer VR 19124. Dieser Wandel hat der Gemeinde Stabilität verliehen, unsere Dienste erweitert und es uns ermöglicht, ein starkes Fundament für die kommende Generation zu legen.",
       "registration": {
         "title": "Offizielle Registrierung",
         "date": "Nov 24, 2016 • VR 19124",
@@ -417,7 +416,7 @@
   "donate": {
     "intro": {
       "title": "Unterstützen Sie unseren Dienst",
-      "subtitle": "Vielen Dank für den Besuch unserer Spendenseite. Jeder Beitrag wird verantwortungsvoll verwendet, um die Mission unserer Kirche zu unterstützen."
+      "subtitle": "Vielen Dank für den Besuch unserer Spendenseite. Jeder Beitrag wird verantwortungsvoll verwendet, um die Mission unserer Gemeinde zu unterstützen."
     },
     "form": {
       "title": "Wählen Sie Ihren Spendenbetrag",
@@ -430,7 +429,7 @@
       "description": "",
       "items": [
         {
-          "description": "Erstens für die monatliche Kirchenmiete und die Betriebskosten, um uns einen festen Ort für Gottesdienste und Gebete zu sichern."
+          "description": "Erstens für die monatliche Miete und die Betriebskosten, um uns einen festen Ort für Gottesdienste und Gebete zu sichern."
         },
         {
           "description": "Zweitens für die laufende Arbeit mit Kindern und Jugendlichen."

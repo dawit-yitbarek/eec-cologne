@@ -1,8 +1,7 @@
 {
   "home": {
     "hero": {
-      "title": "Welcome to our spiritual home in Cologne",
-      "subtitle": "A place of worship, fellowship, and the living Word of God.",
+      "title": "Welcome to our spiritual home in Cologne: A place of worship, fellowship, and the living Word of God.",
       "quote": " \"A little one shall become a thousand, and a small one a strong nation: I the LORD will hasten it in his time.\" (Isaiah 60:22)",
       "buttons": {
         "primary": "Watch Latest Sermon",
@@ -10,7 +9,7 @@
       }
     },
     "services": {
-      "title": "Our Church Regular Services",
+      "title": "Regular Services at our congrigation",
       "communionNote": "Every first Saturday of the month, we regularly partake in the Lord's Supper.",
       "list": [
         { "day": "Saturday", "time": "14:00 - 15:00", "name": "Prayer Time" },
@@ -63,7 +62,7 @@
       ]
     },
     "donationSection": {
-      "cta": "Give a Donation",
+      "cta": "Support Our Ministry",
       "note": "Giving is voluntary and given with love."
     },
     "seo": {
@@ -79,12 +78,12 @@
     },
     "humbleBeginning": {
       "title": "A Humble \n Beginning",
-      "text": "The spiritual journey of the Cologne Church began on April 16, 1995. Our beginning was humble, as we initially gathered in the homes of a few believers. Despite these small beginnings, our hunger for the Word of God was immense. This period of prayer and fellowship in homes laid the foundation for our growth. As God opened more doors, we transitioned to meeting in smaller halls."
+      "text": "The spiritual journey of the Ethiopian Cologne community began on April 16, 1995. Our beginning was humble, as we initially gathered in the homes of a few believers. Despite these small beginnings, our hunger for the Word of God was immense. This period of prayer and fellowship in homes laid the foundation for our growth. As God opened more doors, we transitioned to meeting in smaller halls."
     },
     "evolution": {
       "title": "The Evolution",
-      "subtitle": "From a Migrant Church to a Settled Community",
-      "text": "In the early years of our history, our church primarily served as a spiritual haven for students and migrants who had come to Germany for studies or temporary stays. Many members would return to their home countries after completing their education, yet the church persisted in faithfully sowing the Word of God. \n \n Through God's grace, this dynamic has evolved over time. Today, our church has transformed into a stable and deep-rooted community of permanent residents. After 21 years of faithful fellowship, this stability led to our formal registration as Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. at the District Court of Cologne (Amtsgericht Köln) under the registration number VR 19124 on November 24, 2016. This transition has provided the church with greater stability, expanded our ministries, and allowed us to build a strong foundation for the coming generation.",
+      "subtitle": "Transition to a Settled Community ",
+      "text": "In the early years of our history, our congregation primarily served as a spiritual haven for students and migrants who had come to Germany for studies or temporary stays. Many members would return to their home countries after completing their education, yet the congregation persisted in faithfully sowing the Word of God. \n \n Through God's grace, this dynamic has evolved over time. Today, our congregation has transformed into a stable and deep-rooted community of permanent residents. After 21 years of faithful fellowship, this stability led to our formal registration as Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. at the District Court of Cologne (Amtsgericht Köln) under the registration number VR 19124 on November 24, 2016. This transition has provided the congregation with greater stability, expanded our ministries, and allowed us to build a strong foundation for the coming generation.",
       "registration": {
         "title": "Official Registration",
         "date": "Nov 24, 2016 • VR 19124",
@@ -93,11 +92,11 @@
     },
     "perseverance": {
       "title": "Perseverance Through Trials",
-      "text": "The history of our church has not been without its challenges. Over the years, our journey has been marked by various obstacles and difficult circumstances. However, these trials served as tools to refine our faith and allow us to experience God’s faithfulness firsthand. Because the Lord has sustained us with His grace through every hurdle, our church stands today on a firm foundation."
+      "text": "The history of our community has not been without its challenges. Over the years, our journey has been marked by various obstacles and difficult circumstances. However, these trials served as tools to refine our faith and allow us to experience God’s faithfulness firsthand. Because the Lord has sustained us with His grace through every hurdle, our congregation stands today on a firm foundation."
     },
     "ministries": {
       "title": "Our Ministries Today",
-      "description": "Today, the Cologne Church is active in various areas of ministry to strengthen the spiritual life of its members",
+      "description": "Today, the Cologne Ethiopian community is active in various areas of ministry to strengthen the spiritual life of its members:",
       "list": {
         "worship": {
           "title": "Worship Ministry",
@@ -381,7 +380,7 @@
     }
   },
   "navbar": {
-    "logo": "Ethiopian Evangelical Church of Cologne Mülheim",
+    "logo": "Ethiopian Evangelical Congregation of Cologne Mülheim",
     "links": {
       "home": "Home",
       "about": "About Us",
@@ -413,7 +412,7 @@
   "donate": {
     "intro": {
       "title": "Support Our Ministry",
-      "subtitle": "Thank you for visiting our donation page. Every contribution is used responsibly to support the mission of our church."
+      "subtitle": "Thank you for visiting our donation page. Every contribution is used responsibly to support the mission of our ministry."
     },
     "form": {
       "title": "Choose Your Donation Amount",
