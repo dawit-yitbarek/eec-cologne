@@ -22,14 +22,10 @@ const ChildrensMinistry = async ({ params }) => {
             <section className="relative py-4 flex items-center justify-center bg-black overflow-hidden">
                 <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-yellow-500/10 rounded-full blur-[120px]"></div>
 
-                <div className="relative z-10 max-w-4xl mt-20 text-center px-6">
-                    <h1 className="text-3xl md:text-5xl font-heading text-white leading-tight mb-8 italic">
-                        <q>{messages.hero.text1} <span className="text-yellow-500">{messages.hero.text2}</span></q>
+                <div className="relative z-10 max-w-4xl mt-24 text-center px-6">
+                    <h1 className="text-4xl md:text-6xl font-heading text-white leading-tight mb-8 italic">
+                        {messages.hero.text1} <span className="text-yellow-500">{messages.hero.text2}</span>
                     </h1>
-
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-500/10 border border-yellow-500/20 text-yellow-500">
-                        <span className="text-xs font-bold uppercase tracking-[0.2em]">{messages.hero.source}</span>
-                    </div>
                 </div>
             </section>
 

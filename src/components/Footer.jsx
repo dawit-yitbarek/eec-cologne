@@ -39,7 +39,7 @@ const Footer = ({ lang }) => {
 
       {/* Bottom strip */}
       <div className="border-t text-center py-4 text-sm text-gray-600">
-        © 2026 Ethiopian Evangelical Church of Cologne Mülheim. All Rights
+        © 2026 Ethiopian Evangelical Congregation of Cologne Mülheim. All Rights
         Reserved.
       </div>
     </footer>

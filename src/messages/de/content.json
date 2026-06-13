@@ -132,43 +132,43 @@
   "statementOfFaith": {
     "hero": {
       "title1": "Glaubensbekenntnis",
-      "title2": "unserer Kirche"
+      "title2": "unserer Gemeinde"
     },
     "statemenList": [
       {
         "id": "1",
         "nested": false,
-        "title": "Über die Heilige Schrift",
+        "title": "1.Über die Heilige Schrift",
         "text": "Wir glauben, dass die Bibel (Altes und Neues Testament), bestehend aus 66 Büchern, das göttlich inspirierte (Divine Inspiration) und unveränderliche Wort Gottes ist. \"Sola Scriptura\" (Allein die Schrift) ist die einzige und höchste Autorität für unseren Glauben, unser Leben und unsere Kirchenordnung. (2. Tim. 3,16-17)"
       },
       {
         "id": "2",
         "nested": false,
-        "title": "Über die Dreifaltigkeit (Trinität)",
+        "title": "2.Über die Dreifaltigkeit (Trinität)",
         "text": "Wir glauben an den einen Gott, der ewig, unendlich und der Schöpfer aller Dinge ist. Dieser Gott offenbart sich in drei Personen (Vater, Sohn und Heiliger Geist), die wesensgleich, existentiell und in ihrer Autorität gleichgestellt sind (Co-equal und Co-eternal). Gott ist dreieinig (Triune); die drei Personen existieren in Einheit (Coinherence) ohne Vermischung oder Trennung. Wir glauben, dass dieses göttliche Geheimnis der Weg ist, wie Gott sich den Gläubigen offenbart. (Matt. 28,19-20)"
       },
       {
         "id": "3",
         "nested": false,
-        "title": "Über den Herrn Jesus Christus",
+        "title": "3.Über den Herrn Jesus Christus",
         "text": "Wir glauben, dass der Herr Jesus Christus der wesenseigene Sohn Gottes ist, wahrer Gott und wahrer Mensch. Er wurde durch den Heiligen Geist von der Jungfrau Maria geboren, starb für unsere Sünden am Kreuz, wurde begraben, stieg hinab in das Totenreich (Hades) und besiegte die Macht des Todes. Am dritten Tag stand Er leibhaftig von den Toten auf, fuhr auf in den Himmel, sitzt zur Rechten des Vaters, tritt heute für uns ein und wird in großer Herrlichkeit wiederkommen. (Kol. 1,19-20)"
       },
       {
         "id": "4",
         "nested": false,
-        "title": "Über den Heiligen Geist",
+        "title": "4.Über den Heiligen Geist",
         "text": "Wie der Herr Jesus Christus vom Vater ausgegangen ist (Joh. 8,42), so geht auch der Heilige Geist vom Vater aus (Joh. 15,26) und ist die dritte Person der Dreifaltigkeit. Wir glauben, dass der Heilige Geist Gott ist, dem zusammen mit dem Vater und dem Sohn Anbetung und Ehre gebührt. Er ist ein persönlicher Geist, der die Gläubigen heiligt, führt, tröstet und die Welt der Sünde überführt. (Joh. 15,26, 16,12-14)"
       },
       {
         "id": "5",
         "nested": false,
-        "title": "Über den Sündenfall und die Sündhaftigkeit des Menschen",
+        "title": "5.Über den Sündenfall und die Sündhaftigkeit des Menschen",
         "text": "Wir glauben, dass der Mensch, obwohl im Bilde Gottes geschaffen, durch Übertretung fiel und dadurch die Sünde in die gesamte Menschheit eintrat. Daher ist jeder Mensch von Natur aus ein Sünder, getrennt von der Herrlichkeit Gottes, und kann diesem Urteil aus eigener Kraft nicht entkommen. Errettung geschieht allein aus Gnade (Sola Gratia) durch den Glauben an Christus Jesus. (Eph. 2,8, Joh. 1,12-13)"
       },
       {
         "id": "6",
         "nested": true,
-        "title": "Die Erfüllung mit dem Heiligen Geist und Seine Gaben",
+        "title": "6.Die Erfüllung mit dem Heiligen Geist und Seine Gaben",
         "text": "Wir glauben, dass ein Mensch, der an Jesus Christus glaubt, mit dem Heiligen Geist versiegelt und erfüllt wird (Eph. 1,13, Apg. 2,4). Wir glauben an ein zweifaches Wirken der Erfüllung",
         "list": [
           {
@@ -184,13 +184,13 @@
       {
         "id": "7",
         "nested": false,
-        "title": "Über die Kirche",
+        "title": "7.Über die Kirche",
         "text": "Die Kirche ist die Gemeinschaft der durch das Blut Christi Erlösten; ihr Fundament ist Christus selbst (Matt. 16,18). Sie ist der Leib Christi und die Wohnung des Heiligen Geistes. Wir glauben an die geistliche Einheit aller Gläubigen, die in der örtlichen Gemeinde praktisch zum Ausdruck kommen muss. (Eph. 4,4)"
       },
       {
         "id": "8",
         "nested": true,
-        "title": "Die kirchlichen Ordnungen (Sakramente/Satzungen)",
+        "title": "8.Die kirchlichen Ordnungen (Sakramente/Satzungen)",
         "text": "",
         "list": [
           {
@@ -210,7 +210,7 @@
       {
         "id": "9",
         "nested": false,
-        "title": "Über die Endzeit",
+        "title": "9.Über die Endzeit",
         "text": "Wir glauben an die leibliche Auferstehung und die Entrückung der Gläubigen. Danach folgt das Preisgericht Christi (Bema Seat), wo Gläubige Lohn für ihre Werke empfangen. Wir glauben an die Wiederkunft Christi zur Errichtung des tausendjährigen Reiches (Millennial Kingdom), die allgemeine Toteauferstehung, das Jüngste Gericht vor dem Großen Weißen Thron und die endgültige Trennung zwischen Gerechten (ewiges Leben) und Sündern (ewige Strafe). (Matt. 24)"
       }
     ],
@@ -221,8 +221,9 @@
   },
   "youthMinistry": {
     "hero": {
-      "text1": "… damit ihr die Wohltaten dessen verkündigt, der euch aus der Finsternis ",
-      "text2": "zu seinem wunderbaren Licht berufen hat; ihr seid ein auserwähltes Geschlecht.",
+      "title1": "Jugendarbeit ",
+      "title2": "",
+      "quote": "„… damit ihr die Wohltaten dessen verkündigt, der euch aus der Finsternis zu seinem wunderbaren Licht berufen hat; ihr seid ein auserwähltes Geschlecht.“",
       "source": "1. Petrus 2,9"
     },
     "vision": {
@@ -256,14 +257,13 @@
   },
   "childrenMinistry": {
     "hero": {
-      "text1": "Trainiere einen Knaben gemäß dem Weg, den er gehen soll; ",
-      "text2": "selbst wenn er alt wird, wird er nicht davon weichen.",
-      "source": "Sprüche 22:6"
+      "text1": "Kinderdienst ",
+      "text2": "(Kinderministerium)"
     },
     "vision": {
       "title": "Unsere Vision",
-      "text1": "Kindern zu helfen, eine persönliche Beziehung zu Herrn Jesus Christus aufzubauen und geistlich zu wachsen, indem sie das Wort Gottes von klein auf kennenlernen.",
-      "text2": "„Und Jesus nahm zu an Weisheit und Alter und Gnade bei Gott und den Menschen“ (Lukas 2,52). Unser Dienst geht über die bloße Betreuung hinaus; wir fördern durch Lehre ein ganzheitliches Wachstum nach dem Vorbild Christi."
+      "text1": "Der Kinderdienst basiert auf dem biblischen Grundsatz: „Trainiere einen Knaben gemäß dem Weg, den er gehen soll; selbst wenn er alt wird, wird er nicht davon weichen“ (Sprüche 22,6). Unser Ziel ist es, Kindern zu helfen, eine persönliche Beziehung zu Herrn Jesus Christus aufzubauen und geistlich zu wachsen, indem sie das Wort Gottes von klein auf kennenlernen.",
+      "text2": "Wie in Lukas 2,52 geschrieben steht: „Und Jesus nahm zu an Weisheit und Alter und Gnade bei Gott und den Menschen.“ Unser Dienst geht über die bloße Betreuung während des Gottesdienstes hinaus; wir fördern durch Lehre ein ganzheitliches Wachstum nach dem Vorbild Christi."
     },
     "coreValues": {
       "title": "Unsere Kernwerte",
@@ -304,11 +304,11 @@
     },
     "fellowship": {
       "title": "Gemeinschaft der Kinder",
-      "text": "Wir bieten verschiedene Aktivitäten an, damit die Kinder mit Freude in die Kirche kommen. Durch gemeinsames Singen, Beten und Essen legen wir den Grundstein für ihre zukünftige Geschwisterlichkeit."
+      "text": "Wir bieten verschiedene Aktivitäten an, die die Gemeinschaft untereinander und mit der Gemeinde fördern. Durch gemeinsames Singen, Beten und Essen legen wir den Grundstein für ihre zukünftige Geschwisterlichkeit."
     },
     "service": {
       "title": "Kontinuierliche Begleitung ",
-      "text": "Unser Dienst begleitet die Kinder von ihrem ersten Kirchenbesuch bis hin zur Wassertaufe. Nach der Taufe wechseln sie in den Jugenddienst über."
+      "text": "Unser Kinderdienst begleitet Kinder, bis sie das Alter für die Wassertaufe erreichen. Nach der Taufe wechseln sie in den Jugenddienst über."
     },
     "questions": {
       "title": "Beantwortung von Kinderfragen",
@@ -374,7 +374,7 @@
   },
   "gallery": {
     "heroTitle": "Äthiopische Evangelische Gemeinde Köln Mülheim Fotogalerie",
-    "heroSubtitle": "Momente des Gottesdienstes, der Gemeinschaft, des Dienstes und der Feier, geteilt von unserer Kirchengemeinde.",
+    "heroSubtitle": "Momente der Anbetung, der Gemeinschaft, des Dienstes und der Feier, die unsere Gemeindefamilie gemeinsam erlebt.",
     "noSelectedImage": "Für dieses Jahr sind noch keine Bilder verfügbar.",
     "noImagesTitle": "Im Moment ist kein Bild verfügbar.",
     "noImagesSubtitle": "Wir haben der Galerie noch keine Fotos hinzugefügt. Schauen Sie später noch einmal vorbei!",

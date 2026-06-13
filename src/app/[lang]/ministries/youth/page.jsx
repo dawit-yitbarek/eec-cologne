@@ -19,19 +19,32 @@ const YouthMinistry = async ({ params }) => {
         <main className="bg-[#FAF9F6] min-h-screen">
 
             <section className="relative py-4 flex items-center justify-center bg-black overflow-hidden">
-
+                {/* Background Glow */}
                 <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-yellow-500/10 rounded-full blur-[120px]"></div>
 
                 <div className="relative z-10 max-w-4xl mt-20 text-center px-6">
-                    <h1 className="text-3xl md:text-5xl font-heading text-white leading-tight mb-8 italic">
-                        <q>{messages.hero.text1} <span className="text-yellow-500">{messages.hero.text2}</span></q>
+                    {/* Main Title */}
+                    <h1 className="text-4xl md:text-6xl font-heading font-bold text-white leading-tight mb-10">
+                        {messages.hero.title1} <span className="text-yellow-500">{messages.hero.title2}</span>
                     </h1>
 
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-500/10 border border-yellow-500/20 text-yellow-500">
-                        <span className="text-xs font-bold uppercase tracking-[0.2em]">{messages.hero.source}</span>
+                    {/* Quote Block Container */}
+                    <div className="flex flex-col items-center gap-4 max-w-2xl mx-auto">
+                        {/* The Scripture Text */}
+                        <p className="text-base md:text-lg text-gray-400 italic font-light leading-relaxed">
+                            {messages.hero.quote}
+                        </p>
+
+                        {/* The Scripture Reference (e.g., 1 Peter 2:9) */}
+                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-500/5 border border-yellow-500/10 text-yellow-500/80">
+                            <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em]">
+                                {messages.hero.source}
+                            </span>
+                        </div>
                     </div>
                 </div>
             </section>
+
 
             {/* Vision */}
             <section className="py-24 px-6 bg-white border-b border-stone-100">

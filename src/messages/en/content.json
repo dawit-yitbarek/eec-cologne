@@ -128,43 +128,43 @@
   "statementOfFaith": {
     "hero": {
       "title1": "Statement of Faith of",
-      "title2": "Our Church"
+      "title2": "Our Congregation"
     },
     "statemenList": [
       {
         "id": "1",
         "nested": false,
-        "title": "Concerning the Holy Scriptures",
-        "text": "We believe that the Bible (Old and New Testaments), consisting of 66 books, is the divinely inspired and immutable Word of God. \"Sola Scriptura \" (Scripture Alone) is our sole and sovereign authority for faith, life, and church order. (2 Tim. 3:16-17)"
+        "title": "1.Concerning the Holy Scriptures",
+        "text": "We believe that the Bible (Old and New Testaments), consisting of 66 books, is the divinely inspired and immutable Word of God. \"Sola Scriptura\" (Scripture Alone) is our sole and sovereign authority for faith, life, and church order. (2 Tim. 3:16-17)"
       },
       {
         "id": "2",
         "nested": false,
-        "title": "Concerning the Trinity",
+        "title": "2.Concerning the Trinity",
         "text": "We believe in one God, known through His eternal, infinite nature and as the Creator of all. This one God is revealed in three persons (Father, Son, and Holy Spirit), who are co-equal and co-eternal in nature, existence, and authority. While God is Triune, the three persons exist in unity (Coinherence) without confusion or division. We believe this divine mystery is the way God reveals Himself to believers and makes them partakers of His life. (Matt. 28:19-20) "
       },
       {
         "id": "3",
         "nested": false,
-        "title": "Concerning the Lord Jesus Christ",
+        "title": "3.Concerning the Lord Jesus Christ",
         "text": "We believe that the Lord Jesus Christ is the Son of God by nature, fully God and fully man. We believe He was born of the Virgin Mary through the overshadowing of the Holy Spirit; died on the cross for our sins; was buried; descended into Hades (the place of the dead) and conquered the power of death; and rose bodily on the third day. We believe He ascended into heaven, sits at the right hand of the Father, intercedes for us today, and will return in great glory. (Col. 1:19-20) "
       },
       {
         "id": "4",
         "nested": false,
-        "title": "Concerning the Holy Spirit",
+        "title": "4.Concerning the Holy Spirit",
         "text": "Just as the Lord Jesus Christ came forth from the Father (John 8:42, 16:28), the Holy Spirit also proceeds from the Father (John 15:26) and is the third person of the Trinity with His own distinct agency. We believe the Holy Spirit is God, to be worshiped and glorified with the Father and the Son. He is a personal Spirit who sanctifies, guides, and comforts believers, and convicts the world of sin. (John 15:26, 16:12-14) "
       },
       {
         "id": "5",
         "nested": false,
-        "title": "Concerning the Fall and Human Sinfulness",
+        "title": "5.Concerning the Fall and Human Sinfulness",
         "text": "We believe that although man was created in the image and likeness of God, he fell through transgression, and as a result, sin entered the entire human race. Consequently, all humans are sinful by nature, are fallen short of the glory of God, and cannot escape the judgment of death and sin through their own efforts. Salvation is obtained only by grace (Sola Gratia) through faith in Christ Jesus. When a person repents and accepts the Lord, they are born again and receive the authority to be children of God. (Eph. 2:8, John 1:12-13) "
       },
       {
         "id": "6",
         "nested": true,
-        "title": "The Fullness and Gifts of the Holy Spirit",
+        "title": "6.The Fullness and Gifts of the Holy Spirit",
         "text": "We believe that a person saved by faith in Jesus Christ is sealed and filled with the Holy Spirit and receives the gifts of the Spirit (Eph. 1:13, Acts 2:4, 1 Cor. 12:7-11). We believe the Holy Spirit has a dual aspect of filling in a believer’s life",
         "list": [
           {
@@ -180,13 +180,13 @@
       {
         "id": "7",
         "nested": false,
-        "title": "Concerning the Church",
+        "title": "7.Concerning the Church",
         "text": "The Church is the assembly of believers redeemed by the blood of Christ, and Christ Himself is its foundation (Matt. 16:18). We believe it is the Body of Christ and the dwelling place of the Holy Spirit. All believers are one in spirit and must practically manifest this universal unity through the life of the local church. (Matt. 16:18, Eph. 2:18, 4:4)"
       },
       {
         "id": "8",
         "nested": true,
-        "title": "Church Ordinances",
+        "title": "8.Church Ordinances",
         "text": "While the church performs various rites, the following three are commanded and established by the Lord Jesus Christ",
         "list": [
           {
@@ -206,7 +206,7 @@
       {
         "id": "9",
         "nested": false,
-        "title": "Concerning the End Times",
+        "title": "9.Concerning the End Times",
         "text": "We believe in the physical resurrection and the rapture of believers. Following the rapture, believers will stand before the Bema Seat of Christ to receive rewards according to their works. We believe Jesus Christ will return to earth with His saints to establish the Millennial Kingdom, followed by the resurrection of all the dead and the final Great White Throne Judgment, where the righteous are separated for eternal life and sinners for eternal punishment. (Matt. 24, Mark 13)"
       }
     ],
@@ -217,8 +217,9 @@
   },
   "youthMinistry": {
     "hero": {
-      "text1": "…that you may proclaim the mighty deeds of Him who called you ",
-      "text2": "out of darkness into His marvelous light; you are a chosen people.",
+      "title1": "Youth ",
+      "title2": "Ministry",
+      "quote": "“…that you may proclaim the mighty deeds of Him who called you out of darkness into His marvelous light; you are a chosen people.”",
       "source": "1 Peter 2:9"
     },
     "vision": {
@@ -252,14 +253,13 @@
   },
   "childrenMinistry": {
     "hero": {
-      "text1": "Train up a child in the way he should go, and when he is old ",
-      "text2": "he will not depart from it.",
-      "source": "Proverbs 22:6"
+      "text1": "Children's",
+      "text2": "Ministry"
     },
     "vision": {
       "title": "Our Vision",
-      "text1": "To help children develop a personal relationship with Lord Jesus Christ and grow spiritually by knowing the Word of God from an early age.",
-      "text2": " \"And Jesus increased in wisdom and stature, and in favor with God and men\" (Luke 2:52). Our ministry goes beyond merely babysitting; we focus on teaching children to achieve holistic growth in the likeness of Christ."
+      "text1": "The Children's Ministry is based on the biblical principle: \"Train up a child in the way he should go, and when he is old he will not depart from it\" (Proverbs 22:6). Our goal is to help children develop a personal relationship with Lord Jesus Christ and grow spiritually by knowing the Word of God from an early age",
+      "text2": "As written in Luke 2:52, \"And Jesus increased in wisdom and stature, and in favor with God and men,\" our ministry goes beyond merely babysitting children during worship services; we focus on teaching them to achieve holistic growth in the likeness of Christ."
     },
     "coreValues": {
       "title": "Our Core Values",
@@ -300,11 +300,11 @@
     },
     "fellowship": {
       "title": "Children's Fellowship",
-      "text": "We offer various activities to make children eager to come to church. By singing, praying, and eating together, we lay the foundation for their future brotherhood and sisterhood."
+      "text": "We offer various activities that foster fellowship with each other and with the community. By singing, praying, and eating together, we lay the foundation for their future brotherhood and sisterhood."
     },
     "service": {
       "title": "Continuity of Service",
-      "text": "Our ministry guides children from the time they join the church until they reach the age of water baptism. After baptism, they transition into the Youth Ministry."
+      "text": "Our ministry guides children until they reach the age of water baptism. After baptism, they transition into the Youth Ministry."
     },
     "questions": {
       "title": "Answering Children's Questions",
@@ -369,8 +369,8 @@
     }
   },
   "gallery": {
-    "heroTitle": "Ethiopian Evangelical Church of Cologne Mülheim Photo Gallery",
-    "heroSubtitle": "Moments of worship, fellowship, service, and celebration shared by our church family.",
+    "heroTitle": "Ethiopian Evangelical Congregation of Cologne Mülheim Photo Gallery",
+    "heroSubtitle": "Moments of worship, fellowship, service, and celebration shared by our Congregation family.",
     "noSelectedImage": "No images available for this year yet.",
     "noImagesTitle": "There isn't any image at the moment",
     "noImagesSubtitle": "We haven't added any photos to the gallery yet. Please check back later!",
@@ -425,7 +425,7 @@
       "description": "Your financial support directly funds several key areas of our ministry.",
       "items": [
         {
-          "description": "First, it helps with our monthly church rent and operational costs, ensuring we have a consistent, welcoming space to gather for worship and prayer."
+          "description": "First, it helps with our monthly rent and operational costs, ensuring we have a consistent, welcoming space to gather for worship and prayer."
         },
         {
           "description": "Second, your gifts fund our children and youth ministries."
