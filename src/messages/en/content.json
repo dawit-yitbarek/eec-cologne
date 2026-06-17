@@ -67,7 +67,7 @@
     },
     "seo": {
       "title": "Welcome to our Spiritual Home",
-      "description": "Discover a vibrant community of faith at the Ethiopian Evangelical Church of Cologne. Join us for saturday services, Bible study, and fellowship."
+      "description": "Welcome to the Ethiopian Evangelical Congregation of Cologne Mülheim. A spiritual home in Cologne for worship, fellowship, and the Word of God. Join us for our Saturday worship, prayer meetings, Bible study, and youth ministries."
     }
   },
   "about": {
@@ -122,7 +122,7 @@
     },
     "seo": {
       "title": "Our History & Mission",
-      "description": "Established in 1995, we have grown from a small house gathering into a registered Evangelical church in Cologne. Discover our journey of faith and our current ministries."
+      "description": "Learn about our journey of faith. Growing from a small prayer group into a vibrant spiritual refuge in Cologne, discover our history, mission, and dedication to sharing the Word of God."
     }
   },
   "statementOfFaith": {
@@ -212,7 +212,32 @@
     ],
     "seo": {
       "title": "Statement of Faith & Core Beliefs",
-      "description": "Our theological foundation: We believe in the Holy Scriptures, the Trinity, and salvation through grace. Explore our core biblical doctrines and church ordinances."
+      "description": "Our theological foundation and core beliefs. Explore how our faith is firmly rooted in the Holy Scriptures, the truth of the Gospel, the mystery of the Trinity, and living for the glory of Christ."
+    }
+  },
+  "ministries": {
+    "hero": {
+      "label": "Our Service",
+      "title": {
+        "text1": "Equipping Every ",
+        "text2": "Generation"
+      },
+      "description": "Discover how we serve our community through dedicated ministries focused on spiritual growth, biblical foundation, and genuine Christian fellowship."
+    },
+    "youthMinistry": {
+      "title": "Youth Ministry",
+      "description": "Our vision is to see the youth of our congregation as God-fearing and serving individuals who are fruitful in ministry and in their witness in everyday life. We focus on shaping identities in Christ through the Word and genuine Christian love.",
+      "cta": "Explore Youth Ministry"
+    },
+    "childrenMinistry": {
+      "title": "Children's Ministry",
+      "description": "Based on Proverbs 22:6, we help children develop a personal relationship with Lord Jesus Christ. We provide a safe, holistic environment where the next generation grows in wisdom, stature, and favor with God.",
+      "cta": "Explore Children's Ministry"
+    },
+    "transitionQuote": "Building a bridge between generations, anchored in the eternal Word of God.",
+    "seo": {
+      "title": "Our Ministries & Community Service",
+      "description": "Discover our weekly programs and ministries. Join us for Saturday worship, regular prayer meetings, Zoom Bible studies, and dedicated activities for children and youth."
     }
   },
   "youthMinistry": {
@@ -248,7 +273,7 @@
     },
     "seo": {
       "title": "Youth Ministry: A Chosen Generation",
-      "description": "Empowering young people to find their identity in Christ. Join a community focused on being shaped by the Word, Christian fellowship, and living out God's goodness in everyday life."
+      "description": "Our Youth Ministry focused on raising \"A Chosen Generation\". Empowering young people to know their identity in Christ, grow in the Word, and stand as faithful witnesses for His glory."
     }
   },
   "childrenMinistry": {
@@ -312,7 +337,7 @@
     },
     "seo": {
       "title": "Children's Ministry",
-      "description": "A safe, Christ-centered environment where children grow in faith and character. We bridge cultural gaps for children in the diaspora while building a strong biblical foundation."
+      "description": "Training up children in the way they should go. Our Children's Ministry focuses on building a strong, lasting biblical foundation for the youngest generation in a loving environment."
     }
   },
   "impressum": {
@@ -340,32 +365,7 @@
     },
     "seo": {
       "title": "Legal Notice & Impressum",
-      "description": "Official legal and contact information for the Äthiopische Evangelische Gemeinde Köln Mühlheim e.V. Registered association details and contact person."
-    }
-  },
-  "ministries": {
-    "hero": {
-      "label": "Our Service",
-      "title": {
-        "text1": "Equipping Every ",
-        "text2": "Generation"
-      },
-      "description": "Discover how we serve our community through dedicated ministries focused on spiritual growth, biblical foundation, and genuine Christian fellowship."
-    },
-    "youthMinistry": {
-      "title": "Youth Ministry",
-      "description": "Our vision is to see the youth of our congregation as God-fearing and serving individuals who are fruitful in ministry and in their witness in everyday life. We focus on shaping identities in Christ through the Word and genuine Christian love.",
-      "cta": "Explore Youth Ministry"
-    },
-    "childrenMinistry": {
-      "title": "Children's Ministry",
-      "description": "Based on Proverbs 22:6, we help children develop a personal relationship with Lord Jesus Christ. We provide a safe, holistic environment where the next generation grows in wisdom, stature, and favor with God.",
-      "cta": "Explore Children's Ministry"
-    },
-    "transitionQuote": "Building a bridge between generations, anchored in the eternal Word of God.",
-    "seo": {
-      "title": "Our Ministries & Community Service",
-      "description": "Equipping every generation through our Youth and Children's ministries. Join us for spiritual growth, biblical foundation, and Christian fellowship in Cologne."
+      "description": "Legal notice and official registration details for the Ethiopian Evangelical Congregation of Cologne Mülheim e.V. Find contact information, representatives, and legal disclosures."
     }
   },
   "gallery": {
@@ -376,37 +376,7 @@
     "noImagesSubtitle": "We haven't added any photos to the gallery yet. Please check back later!",
     "seo": {
       "title": "Photo Gallery & Church Life",
-      "description": "Explore moments of worship, fellowship, and celebration at EEC Cologne. See our community in action through our photo collection."
-    }
-  },
-  "navbar": {
-    "logo": "Ethiopian Evangelical Congregation of Cologne Mülheim",
-    "links": {
-      "home": "Home",
-      "about": "About Us",
-      "statementOfFaith": " Statement of Faith",
-      "ministries": "Ministries",
-      "legalNotice": "Legal Notice",
-      "donate": "Donate",
-      "gallery": "Gallery"
-    }
-  },
-  "footer": {
-    "contact": {
-      "title": "Contact",
-      "address": "Address",
-      "representative": "Representative",
-      "phone": "Phone",
-      "email": "Email"
-    },
-    "quickLinks": {
-      "title": "Quick Links",
-      "legalNotice": "Legal Notice",
-      "aboutUs": "About Us"
-    },
-    "legal": {
-      "title": "Legal Details",
-      "registerNo": "Register No"
+      "description": "View captured moments of our community life, Saturday worship services, fellowship gatherings, and celebrations through our online photo gallery."
     }
   },
   "donate": {
@@ -444,7 +414,7 @@
     },
     "seo": {
       "title": "Support Our Mission",
-      "description": "Partner with us in spreading the Gospel and serving the community. Securely donate via PayPal to support our Youth Ministry, Outreach, and Church programs."
+      "description": "Partner with us financially to expand God's Kingdom and serve our community."
     }
   },
   "verify": {
@@ -476,6 +446,36 @@
       "home": "Home"
     }
   },
+  "navbar": {
+    "logo": "Ethiopian Evangelical Congregation of Cologne Mülheim",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "statementOfFaith": " Statement of Faith",
+      "ministries": "Ministries",
+      "legalNotice": "Legal Notice",
+      "donate": "Donate",
+      "gallery": "Gallery"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "address": "Address",
+      "representative": "Representative",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "legalNotice": "Legal Notice",
+      "aboutUs": "About Us"
+    },
+    "legal": {
+      "title": "Legal Details",
+      "registerNo": "Register No"
+    }
+  },
   "error": {
     "title": "Something went wrong",
     "description": "We couldn’t load this content right now. Please check your connection or try again in a moment.",
@@ -489,7 +489,7 @@
   "common": {
     "seo": {
       "title": "Ethiopian Evangelical Church of Cologne Mülheim",
-      "churchShortName": "EEC Cologne",
+      "churchShortName": "AEG Cologne",
       "description": "A spiritual home for the Ethiopian community in Cologne. Join us for worship, community events, and spiritual growth in Mülheim.",
       "keywords": "Ethiopian Church Cologne, Evangelical Church, Amharic Worship Germany, Christian Community Cologne, EEC Mülheim"
     }
