@@ -1,33 +1,33 @@
-import Image from "next/image";
-
 const Hero = ({ content, lang }) => {
   return (
-    <section className="bg-black text-white min-h-screen flex items-center">
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-1 grid md:gap-16 md:grid-cols-2 items-center">
-        {/* Text Content */}
-        <div className="text-center md:text-left">
-          <h1
-            className="font-heading text-3xl md:text-6xl leading-[1.1] tracking-tight"
-            dangerouslySetInnerHTML={{ __html: content.title }}
-          />
+    <section className="relative bg-gray-950 text-white md:min-h-screen flex items-center overflow-hidden" >
 
-          <p className="mt-6 italic text-yellow-400">{content.quote}</p>
+      {/* Main Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/hero.jpg')" }
+        }
+      />
 
+      {/* Dark Overlay + Warm Radial Glow for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 pointer-events-none" />
+
+      {/* Content Container */}
+      <div className="relative max-w-4xl px-6 py-32 z-10">
+
+        <h1
+          className={`font-heading ${lang === "de" ? "text-3xl md:text-5xl" : "text-4xl md:text-6xl"} leading-[1.15] tracking-tight text-white max-w-3xl mx-auto`}
+          dangerouslySetInnerHTML={{ __html: content.title }}
+        />
+
+        <div className="max-w-2xl py-4">
+          <p className="italic text-yellow-200/90 text-lg md:text-xl font-medium leading-relaxed font-serif">
+            {content.quote}
+          </p>
         </div>
 
-        {/* Image */}
-        <div className="relative w-full max-w-md mx-auto md:max-w-none">
-          <Image
-            src="/images/hero.jpg"
-            alt="Jesus Christ"
-            width={500}
-            height={700}
-            className="rounded-lg object-cover grayscale contrast-125"
-            priority
-          />
-        </div>
       </div>
-    </section>
+    </section >
   );
 };
 
