@@ -27,9 +27,15 @@ const DonationForm = ({ content }) => {
         currency,
       });
       const approvalUrl = orderRes.data.links.find(
-        (link) => link.rel === "approve",
-      ).href;
-      window.location.href = approvalUrl;
+        (link) => link.rel === "payer-action" || link.rel === "approve",
+      )?.href;
+
+      if (approvalUrl) {
+        window.location.href = approvalUrl;
+      } else {
+        setError("Failed to initiate the payment");
+        setLoading(false);
+      }
     } catch (err) {
       setLoading(false);
       setError("Something went wrong");
