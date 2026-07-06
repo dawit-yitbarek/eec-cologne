@@ -13,7 +13,7 @@ const Footer = ({ lang }) => {
           <p>{messages.contact.address}: Regentenstraße 78-80, 51063 Köln</p>
           <p className="mt-2">{messages.contact.representative}: Haileselassie G. Gebrehiwot</p>
           <p className="mt-2">{messages.contact.phone}: [Add]</p>
-          <p className="mt-2">{messages.contact.email}: [Add]</p>
+          <p className="mt-2">{messages.contact.email}: <a target="blank_" href="mailto:info@aeg-koeln.de">info(at)aeg-koeln.de</a></p>
         </div>
 
         {/* Column 2: Quick Links */}

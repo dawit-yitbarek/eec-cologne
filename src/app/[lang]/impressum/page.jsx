@@ -54,7 +54,7 @@ export default async function ImpressumPage({ params }) {
                             {messages.contact.title}
                         </h2>
                         <p className="text-gray-700">{messages.contact.phone}: [Add]</p>
-                        <p className="text-gray-700">{messages.contact.email}: [Add]</p>
+                        <p className="text-gray-700">{messages.contact.email}: <a target="blank_" href="mailto:info@aeg-koeln.de">info(at)aeg-koeln.de</a></p>
                     </section>
 
                     {/* Register */}
