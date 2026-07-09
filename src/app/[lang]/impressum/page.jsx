@@ -53,8 +53,15 @@ export default async function ImpressumPage({ params }) {
                         <h2 className="text-xl font-heading mb-3">
                             {messages.contact.title}
                         </h2>
-                        <p className="text-gray-700">{messages.contact.phone}: [Add]</p>
-                        <p className="text-gray-700">{messages.contact.email}: <a target="blank_" href="mailto:info@aeg-koeln.de">info(at)aeg-koeln.de</a></p>
+                        {/* Phone number section column layout */}
+                        <div className="mt-2 flex flex-col sm:flex-row sm:gap-2 text-gray-700">
+                            <span>{messages.contact.phone}:</span>
+                            <div className="flex flex-col">
+                                <a href="tel:+4915734409660" className="hover:underline">+49 157 34409660</a>
+                                <a href="tel:+4915254018740" className="hover:underline mt-1 sm:mt-0">+49 152 54018740</a>
+                            </div>
+                        </div>
+                        <p className="text-gray-700">{messages.contact.email}: <a href="mailto:info@aeg-koeln.de" className="hover:underline">info(at)aeg-koeln.de</a></p>
                     </section>
 
                     {/* Register */}
