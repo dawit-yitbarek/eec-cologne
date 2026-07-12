@@ -34,7 +34,7 @@ export default async function ImpressumPage({ params }) {
                         <p className="text-gray-700 leading-relaxed">
                             {messages.organization.name}<br />
                             Regentenstraße 78-80<br />
-                            51063 Cologne
+                            51063 {lang === "de" ? "Köln" : "Cologne"}
                         </p>
                     </section>
 

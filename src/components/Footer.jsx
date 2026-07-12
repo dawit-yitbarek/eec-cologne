@@ -32,6 +32,9 @@ const Footer = ({ lang }) => {
               <Link href="/impressum">{messages.quickLinks.legalNotice}</Link>
             </li>
             <li>
+              <Link href="/privacy">{messages.quickLinks.privacy}</Link>
+            </li>
+            <li>
               <Link href="/about">{messages.quickLinks.aboutUs}</Link>
             </li>
           </ul>

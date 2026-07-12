@@ -368,6 +368,38 @@
       "description": "Legal notice and official registration details for the Ethiopian Evangelical Congregation of Cologne Mülheim e.V. Find contact information, representatives, and legal disclosures."
     }
   },
+  "privacy": {
+    "title": "Data Privacy Policy",
+    "sections": [
+      {
+        "heading": "1. Controller",
+        "intro": "The controller responsible for data processing on this website under the General Data Protection Regulation (GDPR) is:",
+        "controllerDetails": {
+          "name": "Äthiopische Evangelische Gemeinde Köln Mühlheim e.V.",
+          "street": "Regentenstraße 78-80",
+          "city": "51063 Köln",
+          "email": "Email: info@aeg-koeln.de",
+          "phone": "Phone: +49 157 34409660 | +49 152 54018740"
+        }
+      },
+      {
+        "heading": "2. Data Collection and Usage",
+        "text": "Your privacy is important to us. Our website is hosted on Vercel and is fully tracker-free. We do not use cookies, local storage, tracking tools, or marketing pixels. We do not store, collect, or process any personal data from our website visitors."
+      },
+      {
+        "heading": "3. Server Log Files",
+        "text": "When you visit our website, the hosting provider (Vercel) automatically records technical information transmitted by your browser (such as your browser type, operating system, and the time of access). This data is processed purely to ensure the technical stability and security of the website based on our legitimate interest (Art. 6(1)(f) GDPR) and is deleted automatically."
+      },
+      {
+        "heading": "4. Your Rights",
+        "text": "Under the GDPR, you have the right to access, rectify, or erase any personal data, as well as the right to lodge a complaint with a supervisory authority. Since we do not collect or store any of your data, no data processing takes place. For any questions regarding privacy, please contact us using the details provided above."
+      }
+    ],
+    "seo": {
+      "title": "Data Privacy Policy",
+      "description": "The official data privacy policy of the Ethiopian Evangelical Congregation Cologne Mühlheim e.V. Our website is completely tracker-free and cookie-free."
+    }
+  },
   "gallery": {
     "heroTitle": "Ethiopian Evangelical Congregation of Cologne Mülheim Photo Gallery",
     "heroSubtitle": "Moments of worship, fellowship, service, and celebration shared by our Congregation family.",
@@ -469,6 +501,7 @@
     "quickLinks": {
       "title": "Quick Links",
       "legalNotice": "Legal Notice",
+      "privacy": "Privacy Policy",
       "aboutUs": "About Us"
     },
     "legal": {
