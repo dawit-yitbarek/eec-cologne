@@ -8,10 +8,26 @@ const Footer = ({ lang }) => {
     <footer className="bg-gray-100 text-gray-800 mt-20">
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-10">
         {/* Column 1: Contact */}
-        <div>
+        <div className="flex flex-col items-start">
           <h4 className="font-semibold mb-3">{messages.contact.title}</h4>
+
           <p>{messages.contact.address}: Regentenstraße 78-80, 51063 Köln</p>
-          <p className="mt-2">{messages.contact.representative}: Haileselassie G. Gebrehiwot</p>
+
+          {/* Google Maps External Action Button */}
+          <a
+            href="https://maps.app.goo.gl/6dyzgCTuLEHbEwFA9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex items-center gap-2 px-3.5 py-1.5 bg-yellow-600 text-white text-xs font-medium rounded-md hover:bg-yellow-700 transition-colors shadow-sm"
+          >
+            <span>Open in Google Maps</span>
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+
+          <p className="mt-4">{messages.contact.representative}: Haileselassie G. Gebrehiwot</p>
+
           {/* Phone number section column layout */}
           <div className="mt-2 flex flex-col sm:flex-row sm:gap-2">
             <span>{messages.contact.phone}:</span>
@@ -21,7 +37,12 @@ const Footer = ({ lang }) => {
             </div>
           </div>
 
-          <p className="mt-2">{messages.contact.email}: <a href="mailto:info@aeg-koeln.de" className="hover:underline">info(at)aeg-koeln.de</a></p>
+          <p className="mt-2">
+            {messages.contact.email}:{" "}
+            <a href="mailto:info@aeg-koeln.de" className="hover:underline">
+              info(at)aeg-koeln.de
+            </a>
+          </p>
         </div>
 
         {/* Column 2: Quick Links */}
